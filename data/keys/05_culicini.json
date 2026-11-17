@@ -1,0 +1,1310 @@
+{
+  "keys": [
+    "I",
+    "LUT",
+    "PHE",
+    "CUX",
+    "MEL",
+    "CAR",
+    "MCX",
+    "AEDN",
+    "ANO",
+    "TIN",
+    "MCR",
+    "NCX"
+  ],
+  "steps": [
+    {
+      "id": "I1",
+      "key_id": "I",
+      "step_number": 1,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 1",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas mesepimerais inferiores (SMnti) presentes, formando fileira com cerca de cinco elementos desenvolvidos; fêmures salpicados de escamas claras; costa (C) com áreas claras e escuras, alternadas; mosquitos de porte avantajado",
+        "image": "ArboTeamPng.png",
+        "next_step": "LUT1",
+        "set_taxonomy": {
+          "genero": "Lutzia",
+          "subgenero": "Lutzia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas mesepimerais inferiores (SMmi) ausentes ou, se presentes, finas e em número reduzido, às vezes limitadas a um único elemento; fêmures não conspicuamente salpicados de escamas claras; costa (C) sem áreas claras e escuras alternadas; mosquitos de porte médio ou pequeno",
+        "image": "ArboTeamPng.png",
+        "next_step": "I2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I2",
+      "key_id": "I",
+      "step_number": 2,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 2",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com os tergitos dotados de áreas basolaterais de escamas claras e com reflexos metálicos",
+        "image": "ArboTeamPng.png",
+        "next_step": "CAR1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Carrollia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com tergitos escuros ou com áreas basolaterais, ou faixas basais, de escamas claras mas sem reflexos metálicos",
+        "image": "ArboTeamPng.png",
+        "next_step": "I3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I3",
+      "key_id": "I",
+      "step_number": 3,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 3",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas acrosticais (SAc) desenvolvidas e situadas na área central do escudo (Esc)",
+        "image": "ArboTeamPng.png",
+        "next_step": "I4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas acrosticais (SAc) ausentes na área central do escudo (Esc) e, se presentes, confinadas à extremidade anterior da área ou, então, também na região pré-escutelar (Apr)",
+        "image": "ArboTeamPng.png",
+        "next_step": "I9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I4",
+      "key_id": "I",
+      "step_number": 4,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 4",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Mesocatepisterno (Mcs) com escamas em manchas distintas",
+        "image": "ArboTeamPng.png",
+        "next_step": "I5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesocatepisterno (Mcs) com apenas algumas escamas entre as cerdas",
+        "image": "ArboTeamPng.png",
+        "next_step": "I7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I5",
+      "key_id": "I",
+      "step_number": 5,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 5",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-1 mais curto do que a tíbia correspondente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Allimanta",
+          "especie": "Culex tramazayguesi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-1 de comprimento subigual ou mais longo do que a tíbia correspondente",
+        "image": "ArboTeamPng.png",
+        "next_step": "I6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I6",
+      "key_id": "I",
+      "step_number": 6,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 6",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com faixa de escamas claras, estendida lateralmente, da área acrostical (AA) até a supra-alar (ASa)",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHE1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Phenacomyia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) coberto de escamas geralmente unicoloridas e, quando ocorrem faixas ou áreas claras, são pouco evidentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Culex"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I7",
+      "key_id": "I",
+      "step_number": 7,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 7",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Pleura com tegumento amarelado ou esbranquiçado",
+        "image": "ArboTeamPng.png",
+        "next_step": "MCR1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Micraedes"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleura com tegumento escuro ou claro mas, neste último caso, com áreas escurecidas",
+        "image": "ArboTeamPng.png",
+        "next_step": "I8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I8",
+      "key_id": "I",
+      "step_number": 8,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 8",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros com área clara basal",
+        "image": "ArboTeamPng.png",
+        "next_step": "MCX1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Microculex"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros completamente escuros",
+        "image": "ArboTeamPng.png",
+        "next_step": "ANO1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Anoedioporpa"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I9",
+      "key_id": "I",
+      "step_number": 9,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 9",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com os tergitos apresentando áreas claras apicais ou apicolaterais",
+        "image": "ArboTeamPng.png",
+        "next_step": "NCX1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Neoculex"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com os tergitos totalmente escuros ou com áreas claras basais ou basolaterais",
+        "image": "ArboTeamPng.png",
+        "next_step": "I10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I10",
+      "key_id": "I",
+      "step_number": 10,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 10",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) com escamas largas ao longo da linha limítrofe entre os olhos",
+        "image": "ArboTeamPng.png",
+        "next_step": "I11",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) com escamas estreitas ao longo da linha limítrofe entre os olhos",
+        "image": "ArboTeamPng.png",
+        "next_step": "I12",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I11",
+      "key_id": "I",
+      "step_number": 11,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 11",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Indivíduos masculinos com os palpos maxilares (PlpM) longos, mais compridos do que a probóscide",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Melanoconion"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Indivíduos masculinos com os palpos maxilares (PlpM) curtos, de comprimento inferior ao da probóscide",
+        "image": "ArboTeamPng.png",
+        "next_step": "AEDN1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Aedinus"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I12",
+      "key_id": "I",
+      "step_number": 12,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 12",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Mesanepímero (Man) sem cerdas",
+        "image": "ArboTeamPng.png",
+        "next_step": "AEDN1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Aedinus"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesanepímero (Mani) com cerdas, geralmente poucas",
+        "image": "ArboTeamPng.png",
+        "next_step": "I13",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I13",
+      "key_id": "I",
+      "step_number": 13,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 13",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas proepisternais superiores (SPeS) desenvolvidas e em número apreciável",
+        "image": "ArboTeamPng.png",
+        "next_step": "TIN1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Tinolestes"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas proepisternais superiores (SPeS) pouco desenvolvidas e em pequeno número",
+        "image": "ArboTeamPng.png",
+        "next_step": "I14",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I14",
+      "key_id": "I",
+      "step_number": 14,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 14",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Veias R2 e R3 com escamas largas",
+        "image": "ArboTeamPng.png",
+        "next_step": "AEDN1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Aedinus"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veias R2 e R3 com escamas estreitas",
+        "image": "ArboTeamPng.png",
+        "next_step": "I15",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "I15",
+      "key_id": "I",
+      "step_number": 15,
+      "title": "Gêneros e Subgêneros de Culicini — Passo 15",
+      "taxon_context": "Culicinae > Culicini",
+      "option_a": {
+        "label": "A",
+        "text": "Mesocatepisterno (Mcs) com distinta mancha de escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": "MCX1",
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Microculex"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesocatepisterno (Mcs) sem distinta mancha de escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "genero": "Culex",
+          "subgenero": "Belkinomyia",
+          "especie": "Culex eldridgei"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "LUT1",
+      "key_id": "LUT",
+      "step_number": 1,
+      "title": "Espécies de Lutzia — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Lutzia",
+      "option_a": {
+        "label": "A",
+        "text": "Veia Costa (C) com linha nítida de escamas claras na metade basal; tergitos abdominais V a VIII predominantemente claros/amarelados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Lutzia bigoti"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia Costa (C) com manchas claras esparsas; tergitos abdominais com faixas apicais claras estreitas em todos os segmentos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Lutzia allostigma"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "PHE1",
+      "key_id": "PHE",
+      "step_number": 1,
+      "title": "Espécies de Culex (Phenacomyia) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Phenacomyia)",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide com anel claro mediano bem definido; tarsômeros posteriores com anéis claros nas articulações (abrange ambos os lados da articulação).",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex corniger"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide sem anel claro mediano completo, apenas pálida ventralmente; ornamentação do escudo mais reduzida.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHE2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "PHE2",
+      "key_id": "PHE",
+      "step_number": 2,
+      "title": "Espécies de Culex (Phenacomyia) — Passo 2",
+      "taxon_context": "Culicinae > Culicini > Culex (Phenacomyia)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais com faixas basais claras completas e manchas basolaterais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex lactator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais apenas com manchas basolaterais claras, sem faixas dorsais completas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex airozai"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CUX1",
+      "key_id": "CUX",
+      "step_number": 1,
+      "title": "Espécies de Culex (Culex) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores com anéis claros distintos nas articulações (envolvendo o ápice de um segmento e a base do seguinte).",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores inteiramente escuros ou com estreita marcação restrita apenas à base dos segmentos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX2",
+      "key_id": "CUX",
+      "step_number": 2,
+      "title": "Espécies de Culex (Culex) — Passo 2",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide com anel claro mediano distinto ou área clara mediana ventral bem demarcada.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide inteiramente escura dorsalmente, sem anel claro mediano.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX3",
+      "key_id": "CUX",
+      "step_number": 3,
+      "title": "Espécies de Culex (Culex) — Passo 3",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur e tíbia posteriores com linha longitudinal de escamas claras na face externa; tergitos com faixas basais amareladas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex habilitator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur e tíbia posteriores sem linha longitudinal externa contínua; grupo Coronator.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX4",
+      "key_id": "CUX",
+      "step_number": 4,
+      "title": "Espécies de Culex (Culex) — Passo 4",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5 com anel claro basal e ápice claro; escutelo com escamas douradas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex coronator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5 escuro na metade apical; anéis tarsais mais estreitos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex usquatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CUX5",
+      "key_id": "CUX",
+      "step_number": 5,
+      "title": "Espécies de Culex (Culex) — Passo 5",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) revestido por escamas castanho-avermelhadas finas com manchas claras pós-escutelares; anéis tarsais estreitos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex declarator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com escamas douradas e bronzeadas misturadas; tergitos com faixas basais largas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex bidens"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CUX6",
+      "key_id": "CUX",
+      "step_number": 6,
+      "title": "Espécies de Culex (Culex) — Passo 6",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Pleuras sem manchas de escamas no mesocatepisterno (Mcs) e mesanepímero (Man) (ou no máximo 2 a 5 escamas isoladas); escudo castanho-escuro uniforme.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex nigripalpus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleuras com manchas distintas e bem formadas de escamas claras no mesocatepisterno (Mcs) e mesanepímero (Man).",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX7",
+      "key_id": "CUX",
+      "step_number": 7,
+      "title": "Espécies de Culex (Culex) — Passo 7",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com par de manchas arredondadas claras na região mediana (área dorsocentral) contrastando com o fundo escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex saltanensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) uniformemente revestido por escamas castanho-amareladas ou douradas, sem par de manchas ocelares.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX8",
+      "key_id": "CUX",
+      "step_number": 8,
+      "title": "Espécies de Culex (Culex) — Passo 8",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais com largas faixas basais de escamas branco-amareladas, bem destacadas das escamas escuras apicais.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais dorsalmente escuros ou com faixas basais muito estreitas, descontínuas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX9",
+      "key_id": "CUX",
+      "step_number": 9,
+      "title": "Espécies de Culex (Culex) — Passo 9",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Faixas basais claras dos tergitos III-V convexas na margem posterior (arredondadas no centro) e constritas antes das manchas laterais; segunda célula marginal (R2) cerca de 2,5 a 3x o comprimento de seu pecíolo.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex quinquefasciatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Faixas basais claras dos tergitos III-V retas e de largura uniforme até unirem-se amplamente às manchas laterais; segunda célula marginal mais de 4x o seu pecíolo.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex pipiens"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CUX10",
+      "key_id": "CUX",
+      "step_number": 10,
+      "title": "Espécies de Culex (Culex) — Passo 10",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Occipício (Occ) com escamas eretas escuras nas áreas laterais e claras no centro; probóscide mais clara na face ventral.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex chidesteri"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Occipício (Occ) com escamas eretas inteiramente amareladas ou douradas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CUX11",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CUX11",
+      "key_id": "CUX",
+      "step_number": 11,
+      "title": "Espécies de Culex (Culex) — Passo 11",
+      "taxon_context": "Culicinae > Culicini > Culex (Culex)",
+      "option_a": {
+        "label": "A",
+        "text": "Articulações fêmoro-tibiais com nítido ponto branco apical; espécie comum no Sul do Brasil.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex dolosus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Articulações fêmoro-tibiais quase imperceptivelmente marcadas; tarsos com leve reflexo bronzeado.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex mollis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MEL1",
+      "key_id": "MEL",
+      "step_number": 1,
+      "title": "Espécies de Culex (Melanoconion) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores com anéis brancos nítidos nas articulações e tarsômero Ta-5 inteiramente branco.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores inteiramente escuros ou com anéis muito discretos (Ta-5 nunca inteiramente branco).",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MEL2",
+      "key_id": "MEL",
+      "step_number": 2,
+      "title": "Espécies de Culex (Melanoconion) — Passo 2",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Epímero mesotorácico (mesanepímero) com mancha distinta de escamas brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex cedecei"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Epímero mesotorácico desprovido de mancha de escamas brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MEL3",
+      "key_id": "MEL",
+      "step_number": 3,
+      "title": "Espécies de Culex (Melanoconion) — Passo 3",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) inteiramente revestido de escamas escuras castanho-bronzeadas; anéis tarsais posteriores bem definidos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex taeniopus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com escamas douradas na metade anterior ou nas margens laterais; anéis tarsais mais estreitos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex pedroi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MEL4",
+      "key_id": "MEL",
+      "step_number": 4,
+      "title": "Espécies de Culex (Melanoconion) — Passo 4",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com a metade ou dois terços anteriores revestidos por vistosa mancha de escamas douradas brilhantes.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) revestido por escamas escuras, castanhas ou bronzeadas, sem grande capuz dourado anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MEL5",
+      "key_id": "MEL",
+      "step_number": 5,
+      "title": "Espécies de Culex (Melanoconion) — Passo 5",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur médio e posterior com tufo de escamas subapicais; porte médio avantajado.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex spissipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmures sem tufos de escamas subapicais.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MEL6",
+      "key_id": "MEL",
+      "step_number": 6,
+      "title": "Espécies de Culex (Melanoconion) — Passo 6",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Mancha dourada do escudo estendendo-se até a área pré-escutelar em linhas estreitas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex chrysonotum"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mancha dourada do escudo restrita aos dois terços anteriores, contrastando abruptamente com o terço posterior escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex theobaldi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MEL7",
+      "key_id": "MEL",
+      "step_number": 7,
+      "title": "Espécies de Culex (Melanoconion) — Passo 7",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Pleuras apresentando nítido padrão de áreas escuras (mancha negra arredondada no mesanepímero) contrastando com o tegumento amarelado.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex ocellatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleuras sem mancha ocelar negra no mesanepímero.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MEL8",
+      "key_id": "MEL",
+      "step_number": 8,
+      "title": "Espécies de Culex (Melanoconion) — Passo 8",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Occipício (Occ) com escamas deitadas largas cobrindo quase toda a superfície dorsal da cabeça até o vértice.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Occipício (Occ) com área triangular mediana de escamas estreitas falciformes.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MEL10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MEL9",
+      "key_id": "MEL",
+      "step_number": 9,
+      "title": "Espécies de Culex (Melanoconion) — Passo 9",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais com faixas basais brancas contínuas além das manchas basolaterais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex bastagarius"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais escuros dorsalmente, apenas com manchas basolaterais brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex pilosus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MEL10",
+      "key_id": "MEL",
+      "step_number": 10,
+      "title": "Espécies de Culex (Melanoconion) — Passo 10",
+      "taxon_context": "Culicinae > Culicini > Culex (Melanoconion)",
+      "option_a": {
+        "label": "A",
+        "text": "Mesocatepisterno (Mcs) com mancha bem definida de escamas translúcidas/esbranquiçadas; espécie abundante na Mata Atlântica.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex ribeirensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesocatepisterno (Mcs) sem mancha densa de escamas; tergitos com manchas basolaterais triangulares.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex vomerifer"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CAR1",
+      "key_id": "CAR",
+      "step_number": 1,
+      "title": "Espécies de Culex (Carrollia) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Carrollia)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-4 inteiramente branco ou predominantemente claro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex urichii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores inteiramente escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CAR2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CAR2",
+      "key_id": "CAR",
+      "step_number": 2,
+      "title": "Espécies de Culex (Carrollia) — Passo 2",
+      "taxon_context": "Culicinae > Culicini > Culex (Carrollia)",
+      "option_a": {
+        "label": "A",
+        "text": "Pleuras com tegumento amarelado uniforme; manchas basolaterais do abdome com brilho violáceo-prateado intenso.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex iridescens"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleuras com áreas castanho-escuras no mesocatepisterno e mesanepímero.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CAR3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CAR3",
+      "key_id": "CAR",
+      "step_number": 3,
+      "title": "Espécies de Culex (Carrollia) — Passo 3",
+      "taxon_context": "Culicinae > Culicini > Culex (Carrollia)",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com mancha clara subapical nítida na face anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex soperi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior sem mancha subapical isolada, apenas claro na face ventral.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex bonnei"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MCX1",
+      "key_id": "MCX",
+      "step_number": 1,
+      "title": "Espécies de Culex (Microculex) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Microculex)",
+      "option_a": {
+        "label": "A",
+        "text": "Pleuras com faixas longitudinais de escamas brancas muito nítidas atravessando o mesocatepisterno e mesanepímero; tarsos com anéis brancos basais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex pleuristriatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleuras sem faixas longitudinais contínuas de escamas brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MCX2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MCX2",
+      "key_id": "MCX",
+      "step_number": 2,
+      "title": "Espécies de Culex (Microculex) — Passo 2",
+      "taxon_context": "Culicinae > Culicini > Culex (Microculex)",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) ornamentado com desenho reticular de linhas prateadas/brancas lembrando Aedes; anéis tarsais brancos largos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex imitator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem desenho branco reticular; revestimento castanho, dourado ou esverdeado.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MCX3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MCX3",
+      "key_id": "MCX",
+      "step_number": 3,
+      "title": "Espécies de Culex (Microculex) — Passo 3",
+      "taxon_context": "Culicinae > Culicini > Culex (Microculex)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores com estreitos anéis claros basais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex inimitabilis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores inteiramente escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex neglectus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AEDN1",
+      "key_id": "AEDN",
+      "step_number": 1,
+      "title": "Espécies de Culex (Aedinus) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Aedinus)",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas das veias alares R2 e R3 largas e ovais; tegumento pleural amarelado.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex amazonensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas das veias alares R2 e R3 estreitas; pleuras castanhas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex accelerans"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "ANO1",
+      "key_id": "ANO",
+      "step_number": 1,
+      "title": "Espécies de Culex (Anoedioporpa) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Anoedioporpa)",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) com faixa anterior de escamas largas brancas ao longo da margem ocular.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex conservator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) revestido por escamas escuras ou bronzeadas até a margem ocular.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex bamborum"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "TIN1",
+      "key_id": "TIN",
+      "step_number": 1,
+      "title": "Espécies de Culex (Tinolestes) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Tinolestes)",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos femininos com cerca de um quarto do comprimento da probóscide; escamas alares largas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex latisquama"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos femininos mais curtos que um quinto da probóscide; porte muito pequeno.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex breviculus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MCR1",
+      "key_id": "MCR",
+      "step_number": 1,
+      "title": "Espécies de Culex (Micraedes) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Micraedes)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais com faixas basais claras completas; palpos femininos quase um terço da probóscide.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex bisulcatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais apenas com manchas basolaterais claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex erethyzonfer"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "NCX1",
+      "key_id": "NCX",
+      "step_number": 1,
+      "title": "Espécies de Culex (Neoculex) — Passo 1",
+      "taxon_context": "Culicinae > Culicini > Culex (Neoculex)",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com tegumento castanho-avermelhado e faixas apicais claras bem visíveis nos tergitos abdominais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex derivator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) castanho-escuro acinzentado; faixas apicais brancas estreitas nos tergitos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culex territans"
+        },
+        "is_terminal": true
+      }
+    }
+  ]
+}

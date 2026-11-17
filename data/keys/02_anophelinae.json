@@ -1,0 +1,875 @@
+{
+  "keys": [
+    "AN_GEN",
+    "CHAG",
+    "AN_ESP"
+  ],
+  "steps": [
+    {
+      "id": "AN_GEN1",
+      "key_id": "AN_GEN",
+      "step_number": 1,
+      "title": "Gêneros de Anophelinae — Passo 1",
+      "taxon_context": "Anophelinae",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo (Eto) levemente trilobado, com três conjuntos distintos de cerdas; garras tarsais masculinas bidentadas; repouso do adulto em posição semelhante aos culicíneos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CHAG1",
+        "set_taxonomy": {
+          "genero": "Chagasia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo (Eto) uniformemente arredondado em sua margem posterior, com fileira contínua de cerdas; repouso do adulto em ângulo oblíquo em relação à superfície.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP1",
+        "set_taxonomy": {
+          "genero": "Anopheles"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CHAG1",
+      "key_id": "CHAG",
+      "step_number": 1,
+      "title": "Espécies de Chagasia — Passo 1",
+      "taxon_context": "Anophelinae > Chagasia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores com anéis escuros apicais largos e único anel escuro espinhoso sub-basal; asas com escamas claras e escuras misturadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "CHAG2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores Ta-2 a Ta-4 com dois anéis escuros em cada segmento (um mediano e um apical).",
+        "image": "ArboTeamPng.png",
+        "next_step": "CHAG3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "CHAG2",
+      "key_id": "CHAG",
+      "step_number": 2,
+      "title": "Espécies de Chagasia — Passo 2",
+      "taxon_context": "Anophelinae > Chagasia",
+      "option_a": {
+        "label": "A",
+        "text": "Asas com manchas definidas de escamas escuras na veia Costa (C); tarsômero posterior Ta-5 totalmente claro ou com discreto anel basal escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Chagasia fajardi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asas com escamas claras e escuras distribuídas de maneira difusa, sem formar manchas costais nítidas; tarsômero posterior Ta-5 com ápice escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Chagasia rozeboomi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CHAG3",
+      "key_id": "CHAG",
+      "step_number": 3,
+      "title": "Espécies de Chagasia — Passo 3",
+      "taxon_context": "Anophelinae > Chagasia",
+      "option_a": {
+        "label": "A",
+        "text": "Mesonoto (Esc) com escamas eretas largas nas áreas laterais anteriores; tíbia posterior com manchas claras bem delimitadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Chagasia bonneae"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesonoto (Esc) com escamas estreitas; tíbia posterior predominantemente escura com anel apical claro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Chagasia bathana"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP1",
+      "key_id": "AN_ESP",
+      "step_number": 1,
+      "title": "Subgêneros e Espécies de Anopheles — Passo 1",
+      "taxon_context": "Anophelinae > Anopheles",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com tegumento percorrido por quatro faixas longitudinais prateadas ou esbranquiçadas, alternadas com faixas escuras; asas com áreas claras e escuras bem demarcadas (Subgênero Kerteszia).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP2",
+        "set_taxonomy": {
+          "subgenero": "Kerteszia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem o padrão de quatro faixas longitudinais prateadas/escuras alternadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP2",
+      "key_id": "AN_ESP",
+      "step_number": 2,
+      "title": "Espécies de Anopheles (Kerteszia) — Passo 2",
+      "taxon_context": "Anophelinae > Anopheles (Kerteszia)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais revestidos dorsalmente por numerosas escamas claras e escuras; esternitos também com escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles bambusicolus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais desprovidos de escamas na superfície dorsal (exceto ocasionalmente no segmento VIII e cercas).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP3",
+      "key_id": "AN_ESP",
+      "step_number": 3,
+      "title": "Espécies de Anopheles (Kerteszia) — Passo 3",
+      "taxon_context": "Anophelinae > Anopheles (Kerteszia)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5 inteiramente escuro ou com apenas a base escura e ápice acinzentado; fêmur posterior sem anel claro apical nítido.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles bellator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores Ta-2 a Ta-5 com amplas marcações brancas apicais; Ta-5 com pelo menos a metade apical branca.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP4",
+      "key_id": "AN_ESP",
+      "step_number": 4,
+      "title": "Espécies de Anopheles (Kerteszia) — Passo 4",
+      "taxon_context": "Anophelinae > Anopheles (Kerteszia)",
+      "option_a": {
+        "label": "A",
+        "text": "Veia alar R4+5 inteiramente escura na região mediana, apresentando apenas pequena mancha clara basal e apical; mesanepímero (Man) sem escamas na porção mediana.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles neivai"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia alar R4+5 com extensa faixa de escamas claras na porção mediana; mesanepímero (Man) com escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP5",
+      "key_id": "AN_ESP",
+      "step_number": 5,
+      "title": "Espécies de Anopheles (Kerteszia) — Passo 5",
+      "taxon_context": "Anophelinae > Anopheles (Kerteszia)",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos maxilares femininos com os dois últimos palpômeros revestidos predominantemente por escamas brancas; tarsômeros posteriores Ta-3 e Ta-4 com mais de 2/3 apicais brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles laneanus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos maxilares femininos com anéis brancos apicais estreitos; tarsômeros posteriores Ta-3 e Ta-4 com cerca da metade apical branca.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP6",
+      "key_id": "AN_ESP",
+      "step_number": 6,
+      "title": "Espécies de Anopheles (Kerteszia) — Passo 6",
+      "taxon_context": "Anophelinae > Anopheles (Kerteszia)",
+      "option_a": {
+        "label": "A",
+        "text": "Mesanepímero (Man) com apenas uma mancha superior de escamas brancas; listas claras das tíbias bem definidas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles cruzii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesanepímero (Man) com duas manchas de escamas brancas (uma superior e outra mediana alongada).",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles homunculus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP7",
+      "key_id": "AN_ESP",
+      "step_number": 7,
+      "title": "Subgêneros e Espécies de Anopheles — Passo 7",
+      "taxon_context": "Anophelinae > Anopheles",
+      "option_a": {
+        "label": "A",
+        "text": "Asas revestidas inteiramente por escamas escuras, sem manchas claras costais; escudo escuro com linha mediana longitudinal branco-prateada ou azulada (Subgênero Stethomyia).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP8",
+        "set_taxonomy": {
+          "subgenero": "Stethomyia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asas com manchas de escamas claras e escuras, pelo menos na veia Costa (C) e Rádio (R).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP8",
+      "key_id": "AN_ESP",
+      "step_number": 8,
+      "title": "Espécies de Anopheles (Stethomyia) — Passo 8",
+      "taxon_context": "Anophelinae > Anopheles (Stethomyia)",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) com tufo frontal de escamas brancas longas projetadas entre as bases antenais; linha prateada mediana do escudo muito nítida.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles nimbus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) com tufo frontal pouco desenvolvido ou de escamas escuras; linha mediana do escudo tênue.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP9",
+      "key_id": "AN_ESP",
+      "step_number": 9,
+      "title": "Espécies de Anopheles (Stethomyia) — Passo 9",
+      "taxon_context": "Anophelinae > Anopheles (Stethomyia)",
+      "option_a": {
+        "label": "A",
+        "text": "Pleuras com linha longitudinal esbranquiçada nítida através do mesocatepisterno (Mcs).",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles kompi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleuras uniformemente escuras, sem linha longitudinal esbranquiçada no mesocatepisterno (Mcs).",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles thomasi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP10",
+      "key_id": "AN_ESP",
+      "step_number": 10,
+      "title": "Subgêneros e Espécies de Anopheles — Passo 10",
+      "taxon_context": "Anophelinae > Anopheles",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior apresentando um conspícuo tufo subapical de escamas longas e eretas; ou fêmures e tíbias intensamente manchados com anéis claros (Subgênero Lophopodomyia).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP11",
+        "set_taxonomy": {
+          "subgenero": "Lophopodomyia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior sem tufo subapical de escamas eretas em forma de pincel (Subgêneros Nyssorhynchus e Anopheles).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP12",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP11",
+      "key_id": "AN_ESP",
+      "step_number": 11,
+      "title": "Espécies de Anopheles (Lophopodomyia) — Passo 11",
+      "taxon_context": "Anophelinae > Anopheles (Lophopodomyia)",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com proeminente tufo subapical de escamas escuras eretas; tarsômero posterior Ta-5 escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles squamifemur"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior sem tufo denso em pincel, mas com larga faixa clara subapical na tíbia posterior e tarsos manchados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles gilesi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP12",
+      "key_id": "AN_ESP",
+      "step_number": 12,
+      "title": "Subgêneros Nyssorhynchus e Anopheles — Passo 12",
+      "taxon_context": "Anophelinae > Anopheles",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores Ta-3 e Ta-4 inteiramente brancos (raramente com anel basal escuro em Ta-3 em A. rondoni); veia Costa (C) com mais de quatro áreas claras (Subgênero Nyssorhynchus).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP13",
+        "set_taxonomy": {
+          "subgenero": "Nyssorhynchus"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores Ta-3 e Ta-4 nunca inteiramente brancos (escuros ou com anéis/manchas claras e escuras) (Subgênero Anopheles).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP25",
+        "set_taxonomy": {
+          "subgenero": "Anopheles"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP13",
+      "key_id": "AN_ESP",
+      "step_number": 13,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 13",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5 inteiramente branco (Série Argyritarsis e Myzorhynchella).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP14",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5 com anel basal escuro (preto) e porção apical branca (Série Albimanus / Oswaldoi).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP19",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP14",
+      "key_id": "AN_ESP",
+      "step_number": 14,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 14",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais II a VII totalmente desprovidos de escamas dorsais e sem tufos póstero-laterais de escamas escuras (Seção Myzorhynchella).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP15",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais com escamas dorsais e tufos póstero-laterais de escamas escuras pelo menos nos segmentos distais (Série Argyritarsis).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP16",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP15",
+      "key_id": "AN_ESP",
+      "step_number": 15,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 15",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores Ta-3 e Ta-4 inteiramente brancos; veia R4+5 predominantemente clara.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles lutzii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-3 com anel escuro basal; asas predominantemente escuras nas veias internas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles parvus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP16",
+      "key_id": "AN_ESP",
+      "step_number": 16,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 16",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-1 com o terço apical branco; mancha pré-umeral escura da veia Costa (C) muito mais longa (3 a 4x) que a mancha clara umeral adjacente; vetor primário de malária.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles darlingi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-1 escuro, no máximo com estreito anel apical claro; mancha pré-umeral escura da Costa curta ou subigual à mancha clara.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP17",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP17",
+      "key_id": "AN_ESP",
+      "step_number": 17,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 17",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Esternito abdominal I com duas fileiras longitudinais paralelas de escamas brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP18",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Esternito abdominal I glabro (desprovido de fileiras de escamas brancas); tergitos com escamas amareladas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles argyritarsis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP18",
+      "key_id": "AN_ESP",
+      "step_number": 18,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 18",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais médios com faixa mediana de escamas escuras ladeada por escamas claras; veia R com mancha escura setor bem evidente.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles braziliensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais médios revestidos uniformemente por escamas claras amareladas/esbranquiçadas na área dorsal; complexo albitarsis.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles albitarsis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP19",
+      "key_id": "AN_ESP",
+      "step_number": 19,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 19",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-3 com terço basal negro; fêmur e tíbia posteriores com manchas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles rondoni"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores Ta-3 e Ta-4 inteiramente brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP20",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP20",
+      "key_id": "AN_ESP",
+      "step_number": 20,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 20",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Mesanepímero (Man) com mancha anterior de escamas claras bem visível; asa com três manchas azuis/negras principais muito reduzidas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles triannulatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesanepímero (Man) sem mancha anterior de escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP21",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP21",
+      "key_id": "AN_ESP",
+      "step_number": 21,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 21",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-2 com a metade ou mais de sua extensão basal escura (50% a 80% negro).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP22",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-2 com menos de 40% de sua extensão basal escura (predominantemente branco).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP23",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP22",
+      "key_id": "AN_ESP",
+      "step_number": 22,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 22",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Espécie costeira associada a águas salobras; palpos femininos com o penúltimo segmento apresentando muitas escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles aquasalis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Espécie continental de água doce; palpos femininos com o penúltimo segmento predominantemente escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles benarrochi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP23",
+      "key_id": "AN_ESP",
+      "step_number": 23,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 23",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-2 com menos de 20% basal escuro (quase todo branco); penúltimo segmento palpal claro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles oswaldoi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-2 com cerca de 25% a 35% basal escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP24",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP24",
+      "key_id": "AN_ESP",
+      "step_number": 24,
+      "title": "Espécies de Anopheles (Nyssorhynchus) — Passo 24",
+      "taxon_context": "Anophelinae > Anopheles (Nyssorhynchus)",
+      "option_a": {
+        "label": "A",
+        "text": "Mancha clara umeral da veia Costa (C) maior ou igual à mancha escura pré-umeral subjacente.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles nuneztovari"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mancha clara umeral da veia Costa (C) menor que a mancha escura pré-umeral; variações do grupo Strodei/Evansi.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles strodei"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP25",
+      "key_id": "AN_ESP",
+      "step_number": 25,
+      "title": "Espécies de Anopheles (Anopheles) — Passo 25",
+      "taxon_context": "Anophelinae > Anopheles (Anopheles)",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia posterior com larga faixa clara apical (cerca de 1/4 do segmento); tarsos escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP26",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia posterior sem larga faixa branca apical de 1/4 do segmento; pernas escuras ou salpicadas de manchas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP27",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP26",
+      "key_id": "AN_ESP",
+      "step_number": 26,
+      "title": "Espécies de Anopheles (Anopheles) — Passo 26",
+      "taxon_context": "Anophelinae > Anopheles (Anopheles)",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos maxilares femininos com anéis brancos estreitos nas articulações; asas com escamas amareladas e escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles eiseni"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos maxilares femininos inteiramente escuros; tíbia posterior com anel branco apical muito conspícuo.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles tibiamaculatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP27",
+      "key_id": "AN_ESP",
+      "step_number": 27,
+      "title": "Espécies de Anopheles (Anopheles) — Passo 27",
+      "taxon_context": "Anophelinae > Anopheles (Anopheles)",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmures e tíbias uniformemente escuros, não salpicados de manchas amareladas/brancas (Série Pseudopunctipennis / Cycloleppteron).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP28",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmures e tíbias conspicuamente salpicados de manchas e anéis de escamas claras (Série Arribalzagia).",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP29",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP28",
+      "key_id": "AN_ESP",
+      "step_number": 28,
+      "title": "Espécies de Anopheles (Anopheles) — Passo 28",
+      "taxon_context": "Anophelinae > Anopheles (Anopheles)",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com duas manchas claras distintas na veia Costa (C) e franja alar com manchas claras; escudo com faixa mediana acinzentada.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles pseudopunctipennis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa predominantemente escura com escamas infladas elípticas; tergitos com tufos laterais de escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles peryassui"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "AN_ESP29",
+      "key_id": "AN_ESP",
+      "step_number": 29,
+      "title": "Espécies de Anopheles (Anopheles) — Passo 29",
+      "taxon_context": "Anophelinae > Anopheles (Anopheles)",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas muito largas, infladas, com três manchas escuras grandes na Costa (C); tarsômero posterior Ta-5 inteiramente claro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles mediopunctatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5 escuro no meio ou com anel escuro; escamas alares moderadamente largas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_ESP30",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "AN_ESP30",
+      "key_id": "AN_ESP",
+      "step_number": 30,
+      "title": "Espécies de Anopheles (Anopheles) — Passo 30",
+      "taxon_context": "Anophelinae > Anopheles (Anopheles)",
+      "option_a": {
+        "label": "A",
+        "text": "Veia Costa (C) com pequena mancha escura apical distinta após a mancha subcostal clara; asas intensamente manchadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles punctimacula"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia Costa (C) sem mancha escura isolada no ápice; tarsômeros posteriores com estreitos anéis claros nas articulações.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Anopheles maculipes"
+        },
+        "is_terminal": true
+      }
+    }
+  ]
+}

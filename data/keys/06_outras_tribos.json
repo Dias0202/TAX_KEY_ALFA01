@@ -1,0 +1,683 @@
+{
+  "keys": [
+    "MAN_GEN",
+    "MAN",
+    "COQ",
+    "TOX",
+    "URA",
+    "CULIS",
+    "ORT"
+  ],
+  "steps": [
+    {
+      "id": "MAN_GEN1",
+      "key_id": "MAN_GEN",
+      "step_number": 1,
+      "title": "Gêneros da Tribo Mansoniini — Passo 1",
+      "taxon_context": "Culicinae > Mansoniini",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pós-espiraculares (SAP) presentes; asas revestidas por escamas muito largas e assimétricas (claras e escuras misturadas, aspecto 'sal e pimenta'); tergito VIII feminino com fileira de espinhos fortes.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN1",
+        "set_taxonomy": {
+          "genero": "Mansonia",
+          "subgenero": "Mansonia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pós-espiraculares (SAP) ausentes; asas com escamas largas ou moderadamente largas, frequentemente amareladas e escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "COQ1",
+        "set_taxonomy": {
+          "genero": "Coquillettidia",
+          "subgenero": "Rhynchotaenia"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MAN1",
+      "key_id": "MAN",
+      "step_number": 1,
+      "title": "Espécies de Mansonia — Passo 1",
+      "taxon_context": "Culicinae > Mansoniini > Mansonia",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia anterior com fileira de 6 a 10 espinhos fortes e bem espaçados na face interna; escudo com duas manchas anterolaterais douradas contrastantes.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia amazonensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia anterior com numerosos espinhos finos; escudo sem duas manchas douradas anterolaterais isoladas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MAN2",
+      "key_id": "MAN",
+      "step_number": 2,
+      "title": "Espécies de Mansonia — Passo 2",
+      "taxon_context": "Culicinae > Mansoniini > Mansonia",
+      "option_a": {
+        "label": "A",
+        "text": "Ângulos anterolaterais do escudo (úmero) revestidos por densa mancha de escamas amarelo-douradas formando ombros dourados bem delimitados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia humeralis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo sem manchas umerais douradas bem delimitadas (escudo castanho com escamas claras e escuras esparsas ou em linhas finas).",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MAN3",
+      "key_id": "MAN",
+      "step_number": 3,
+      "title": "Espécies de Mansonia — Passo 3",
+      "taxon_context": "Culicinae > Mansoniini > Mansonia",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos maxilares femininos longos, ultrapassando um terço do comprimento da probóscide (cerca de 0,40 a 0,50 da probóscide).",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos maxilares femininos curtos, com cerca de um quarto a um terço do comprimento da probóscide.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MAN4",
+      "key_id": "MAN",
+      "step_number": 4,
+      "title": "Espécies de Mansonia — Passo 4",
+      "taxon_context": "Culicinae > Mansoniini > Mansonia",
+      "option_a": {
+        "label": "A",
+        "text": "Tegumento e escamas do escudo e abdome predominantemente amarelo-alaranjados claros.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia flaveola"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tegumento e escamas do escudo castanho-escuros salpicados de escamas claras; tergito VII com espinhos apicais desenvolvidos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia pseudotitillans"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "MAN5",
+      "key_id": "MAN",
+      "step_number": 5,
+      "title": "Espécies de Mansonia — Passo 5",
+      "taxon_context": "Culicinae > Mansoniini > Mansonia",
+      "option_a": {
+        "label": "A",
+        "text": "Tergito abdominal VII com fileira apical de espinhos quitinizados curtos na margem posterior; espinhos do tergito VIII agrupados no centro no ápice.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia titillans"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergito abdominal VII desprovido de espinhos apicais na margem posterior; espinhos do tergito VIII distribuídos uniformemente sem agrupamento mediano.",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "MAN6",
+      "key_id": "MAN",
+      "step_number": 6,
+      "title": "Espécies de Mansonia — Passo 6",
+      "taxon_context": "Culicinae > Mansoniini > Mansonia",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com anel claro subapical; escamas das asas fortemente bicolores.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia indubitans"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior uniformemente salpicado sem anel subapical distinto; porte mais robusto.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Mansonia wilsoni"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "COQ1",
+      "key_id": "COQ",
+      "step_number": 1,
+      "title": "Espécies de Coquillettidia — Passo 1",
+      "taxon_context": "Culicinae > Mansoniini > Coquillettidia",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) revestido dorsalmente por extensa mancha de escamas amarelo-douradas brilhantes.",
+        "image": "ArboTeamPng.png",
+        "next_step": "COQ2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) revestido predominantemente por escamas escuras (com manchas ou linhas estreitas claras/douradas).",
+        "image": "ArboTeamPng.png",
+        "next_step": "COQ3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "COQ2",
+      "key_id": "COQ",
+      "step_number": 2,
+      "title": "Espécies de Coquillettidia — Passo 2",
+      "taxon_context": "Culicinae > Mansoniini > Coquillettidia",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas predominantemente escuras, apresentando escamas amareladas apenas na base da Costa.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia chrysonotum"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas claras e escuras misturadas em todas as veias e mancha escura costal basal.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia albifera"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "COQ3",
+      "key_id": "COQ",
+      "step_number": 3,
+      "title": "Espécies de Coquillettidia — Passo 3",
+      "taxon_context": "Culicinae > Mansoniini > Coquillettidia",
+      "option_a": {
+        "label": "A",
+        "text": "Veia Costa (C) inteiramente revestida por escamas brancas ou amareladas na metade basal da margem anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia albicosta"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia Costa (C) escura ou com escamas claras e escuras alternadas/misturadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "COQ4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "COQ4",
+      "key_id": "COQ",
+      "step_number": 4,
+      "title": "Espécies de Coquillettidia — Passo 4",
+      "taxon_context": "Culicinae > Mansoniini > Coquillettidia",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia posterior com anel claro largo na metade distal, bem delimitado por escamas escuras; asas salpicadas de escamas claras e escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "COQ5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asas revestidas inteiramente ou quase inteiramente por escamas escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "COQ6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "COQ5",
+      "key_id": "COQ",
+      "step_number": 5,
+      "title": "Espécies de Coquillettidia — Passo 5",
+      "taxon_context": "Culicinae > Mansoniini > Coquillettidia",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com anel claro subapical completo; escudo com manchas douradas nos cantos anteriores e pré-escutelares.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia venezuelensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior sem anel subapical fechado; escudo com linhas longitudinais finas de escamas douradas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia juxtamansonia"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "COQ6",
+      "key_id": "COQ",
+      "step_number": 6,
+      "title": "Espécies de Coquillettidia — Passo 6",
+      "taxon_context": "Culicinae > Mansoniini > Coquillettidia",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com faixa transversal ou manchas laterais prateadas; tarsômeros com anéis brancos basais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia fasciolata"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo e abdome quase inteiramente negros com reflexos violáceos; anéis tarsais reduzidos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Coquillettidia nigricans"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "TOX1",
+      "key_id": "TOX",
+      "step_number": 1,
+      "title": "Espécies de Toxorhynchites — Passo 1",
+      "taxon_context": "Toxorhynchitinae > Toxorhynchitini > Toxorhynchites",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos maxilares femininos longos, quase do comprimento da probóscide, com o último segmento longo e acuminado (Subgênero Ankylorhynchus).",
+        "image": "ArboTeamPng.png",
+        "next_step": "TOX2",
+        "set_taxonomy": {
+          "subgenero": "Ankylorhynchus"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos maxilares femininos truncados no ápice, com o último segmento muito reduzido (Subgênero Lynchiella).",
+        "image": "ArboTeamPng.png",
+        "next_step": "TOX3",
+        "set_taxonomy": {
+          "subgenero": "Lynchiella"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TOX2",
+      "key_id": "TOX",
+      "step_number": 2,
+      "title": "Espécies de Toxorhynchites (Ankylorhynchus) — Passo 2",
+      "taxon_context": "Toxorhynchitinae > Toxorhynchitini > Toxorhynchites",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais dorsais com reflexos purpúreos e violáceos intensos; tufos caudais laterais negros e alaranjados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Toxorhynchites purpureus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais dorsais azul-esverdeados; tufos caudais dos segmentos VI-VIII densos e escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Toxorhynchites trichopygus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "TOX3",
+      "key_id": "TOX",
+      "step_number": 3,
+      "title": "Espécies de Toxorhynchites (Lynchiella) — Passo 3",
+      "taxon_context": "Toxorhynchitinae > Toxorhynchitini > Toxorhynchites",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais terminais (VI a VIII) com conspícuos tufos laterais de cerdas/escamas vermelhas ou alaranjadas brilhantes.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Toxorhynchites haemorrhoidalis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais terminais sem tufos vermelhos (tufos brancos, amarelados ou pretos, ou abdome sem tufos).",
+        "image": "ArboTeamPng.png",
+        "next_step": "TOX4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TOX4",
+      "key_id": "TOX",
+      "step_number": 4,
+      "title": "Espécies de Toxorhynchites (Lynchiella) — Passo 4",
+      "taxon_context": "Toxorhynchitinae > Toxorhynchitini > Toxorhynchites",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros médios e posteriores com marcações brancas extensas; porte muito grande, escudo esverdeado com bordas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Toxorhynchites theobaldi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores com anel branco restrito a Ta-4 ou Ta-2; espécies associadas a bambus ou bromélias.",
+        "image": "ArboTeamPng.png",
+        "next_step": "TOX5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TOX5",
+      "key_id": "TOX",
+      "step_number": 5,
+      "title": "Espécies de Toxorhynchites (Lynchiella) — Passo 5",
+      "taxon_context": "Toxorhynchitinae > Toxorhynchitini > Toxorhynchites",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com reflexos violáceos intensos e manchas laterais prateadas; criadouros em bromélias.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Toxorhynchites violaceus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome bronzeado-esverdeado; palpos com escamas douradas na face ventral; criadouros em internódios de bambu.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Toxorhynchites bambusicola"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "URA1",
+      "key_id": "URA",
+      "step_number": 1,
+      "title": "Espécies de Uranotaenia — Passo 1",
+      "taxon_context": "Culicinae > Uranotaeniini > Uranotaenia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores Ta-4 e Ta-5 (e frequentemente o ápice de Ta-3) inteiramente brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "URA2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores inteiramente escuros ou sem ter Ta-4 e Ta-5 totalmente brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "URA4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "URA2",
+      "key_id": "URA",
+      "step_number": 2,
+      "title": "Espécies de Uranotaenia — Passo 2",
+      "taxon_context": "Culicinae > Uranotaeniini > Uranotaenia",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com duas manchas ocelares negras aveludadas na área supra-alar cercadas por anel de escamas azul-celeste metálicas; fêmur e tíbia com desenhos geométricos brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Uranotaenia geometrica"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem par de manchas ocelares negras cercadas de azul.",
+        "image": "ArboTeamPng.png",
+        "next_step": "URA3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "URA3",
+      "key_id": "URA",
+      "step_number": 3,
+      "title": "Espécies de Uranotaenia — Passo 3",
+      "taxon_context": "Culicinae > Uranotaeniini > Uranotaenia",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com linha mediana longitudinal de escamas azuis/brancas brilhantes; pleuras amareladas com faixa negra mediana.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Uranotaenia pulcherrima"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem linha mediana longitudinal azul, apresentando apenas mancha azulada lateral curta antes da raiz da asa; porte muito pequeno.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Uranotaenia lowii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "URA4",
+      "key_id": "URA",
+      "step_number": 4,
+      "title": "Espécies de Uranotaenia — Passo 4",
+      "taxon_context": "Culicinae > Uranotaeniini > Uranotaenia",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com extensa área de escamas brancas na metade basal ou apical, contrastando com o restante escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Uranotaenia leucoptera"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa predominantemente escura, com apenas uma linha curta de escamas azuis/brancas na base da veia R ou Cu.",
+        "image": "ArboTeamPng.png",
+        "next_step": "URA5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "URA5",
+      "key_id": "URA",
+      "step_number": 5,
+      "title": "Espécies de Uranotaenia — Passo 5",
+      "taxon_context": "Culicinae > Uranotaeniini > Uranotaenia",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com faixa supra-alar contínua de escamas azul-claras até a margem anterior; tergitos com manchas apicais brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Uranotaenia nataliae"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo castanho uniforme com curta linha azulada; esternitos inteiramente pálidos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Uranotaenia pallidoventer"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "CULIS1",
+      "key_id": "CULIS",
+      "step_number": 1,
+      "title": "Espécies de Culiseta — Passo 1",
+      "taxon_context": "Culicinae > Culisetini > Culiseta",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros inteiramente escuros, sem anéis claros; asas com escamas escuras uniformes (Subgênero Climacura).",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culiseta melanura"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asas com manchas de escamas claras e escuras nas veias transversais; fêmures e tíbias salpicados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Culiseta particeps"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "ORT1",
+      "key_id": "ORT",
+      "step_number": 1,
+      "title": "Espécies de Orthopodomyia — Passo 1",
+      "taxon_context": "Culicinae > Orthopodomyiini > Orthopodomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores Ta-3, Ta-4 e Ta-5 inteiramente brancos; mosquito de porte médio com escudo ornamentado de linhas douradas e brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Orthopodomyia fascipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores Ta-3 e Ta-4 escuros na porção mediana (com anéis claros apenas nas extremidades).",
+        "image": "ArboTeamPng.png",
+        "next_step": "ORT2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "ORT2",
+      "key_id": "ORT",
+      "step_number": 2,
+      "title": "Espécies de Orthopodomyia — Passo 2",
+      "taxon_context": "Culicinae > Orthopodomyiini > Orthopodomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Veia Costa (C) com longa faixa branca na metade apical; criadouros em ocos de árvores.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Orthopodomyia albicosta"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia Costa (C) com pequenas manchas claras esparsas; criadouros em bromélias.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Orthopodomyia phyllozoa"
+        },
+        "is_terminal": true
+      }
+    }
+  ]
+}

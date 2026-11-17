@@ -1,0 +1,3599 @@
+{
+  "keys": [
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "steps": [
+    {
+      "id": "C1",
+      "key_id": "C",
+      "step_number": 1,
+      "title": "Gêneros da Tribo Aedini — Passo 1",
+      "taxon_context": "Culicinae > Aedini",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) revestido de escamas com totalidade metálica",
+        "image": "ArboTeamPng.png",
+        "next_step": "E1",
+        "set_taxonomy": {
+          "genero": "Haemagogus"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) revestido de escamas diferentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "C2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "C2",
+      "key_id": "C",
+      "step_number": 2,
+      "title": "Gêneros da Tribo Aedini — Passo 2",
+      "taxon_context": "Culicinae > Aedini",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pré-espiraculares (SPe) presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "F1",
+        "set_taxonomy": {
+          "genero": "Psorophora"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pré-espiraculares (SPe) ausentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "C3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "C3",
+      "key_id": "C",
+      "step_number": 3,
+      "title": "Gêneros da Tribo Aedini — Passo 3",
+      "taxon_context": "Culicinae > Aedini",
+      "option_a": {
+        "label": "A",
+        "text": "Pleuras com escamas prateadas dispostas em faixas verticais",
+        "image": "ArboTeamPng.png",
+        "next_step": "E1",
+        "set_taxonomy": {
+          "genero": "Haemagogus"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleuras sem essa ornamentação da vestimenta, embora possa apresentar escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D1",
+        "set_taxonomy": {
+          "genero": "Aedes"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D1",
+      "key_id": "D",
+      "step_number": 1,
+      "title": "Espécies de Aedes — Passo 1",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com escamas claras de tonalidade prateada",
+        "image": "ArboTeamPng.png",
+        "next_step": "D2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com escamas claras de tonalidade branca, esbranquiçada, amarelada ou então destituído de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D2",
+      "key_id": "D",
+      "step_number": 2,
+      "title": "Espécies de Aedes — Passo 2",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Clípeo (Clp) com escamas prateadas; escudo (Esc) com desenho prateado em forma de lira",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes aegypti"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Clípeo (Clp) com escamas escuras; escudo (Esc) com linha prateada percorrendo-o longitudinalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes albopictus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D3",
+      "key_id": "D",
+      "step_number": 3,
+      "title": "Espécies de Aedes — Passo 3",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pós-espiraculares (SAP), ausentes",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes purpureipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pós-espiraculares (SAP), presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D4",
+      "key_id": "D",
+      "step_number": 4,
+      "title": "Espécies de Aedes — Passo 4",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Garras tarsais (G) femininas, anterior e média, ao menos uma delas, denteadas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Garras tarsais (G) femininas, anterior e média, lisas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D77",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D5",
+      "key_id": "D",
+      "step_number": 5,
+      "title": "Espécies de Aedes — Passo 5",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Mesocatepisterno (Mcs) sem escamas no botão pré-alar (BPal)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes mediovittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesocatepisterno (Mcs) com escamas no botão pré-alar (BPal)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D6",
+      "key_id": "D",
+      "step_number": 6,
+      "title": "Espécies de Aedes — Passo 6",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Segmento VIII feminino, estreito e retraído no segmento VII, de maneira a não ser visível ao exame externo; cercas longas e estreitas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Segmento VIII feminino, um tanto largo, pouco retrátil, apresentando-se visível ao exame externo, revestido total ou parcialmente de escamas; cercas curtas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D46",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D7",
+      "key_id": "D",
+      "step_number": 7,
+      "title": "Espécies de Aedes — Passo 7",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas claras e escuras, ainda que aquelas se limitem a pequena área na porção basal das veias longitudinais anteriores",
+        "image": "ArboTeamPng.png",
+        "next_step": "D8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas escuras, em sua totalidade",
+        "image": "ArboTeamPng.png",
+        "next_step": "D14",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D8",
+      "key_id": "D",
+      "step_number": 8,
+      "title": "Espécies de Aedes — Passo 8",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com as veias dotadas de escamas claras e escuras, misturadas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas claras limitadas às veias longitudinais anteriores",
+        "image": "ArboTeamPng.png",
+        "next_step": "D10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D9",
+      "key_id": "D",
+      "step_number": 9,
+      "title": "Espécies de Aedes — Passo 9",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) coberto de escamas de tonalidade dourada, clara na porção mediana e bronzeada nas áreas laterais",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes sollicitans"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) coberto de escamas de tonalidade bronzeada e dourada, esta formando desenho de linhas longitudinais simétricas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes albifasciatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D10",
+      "key_id": "D",
+      "step_number": 10,
+      "title": "Espécies de Aedes — Passo 10",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas claras dispostas em pequena área na base das veias costa (C) e rádio (R)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D11",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas claras, brancas, dispostas ao longo da costa (C) e rádio (R), cobrindo a metade ou mais da extensão dessas veias, contada a partir da base",
+        "image": "ArboTeamPng.png",
+        "next_step": "D12",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D11",
+      "key_id": "D",
+      "step_number": 11,
+      "title": "Espécies de Aedes — Passo 11",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) de tegumento marrom escuro e com duas amplas manchas amarelas anterolaterais, cobertas de escamas da mesma tonalidade",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes pennai"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) de tegumento marrom escuro, mas com três linhas longitudinais de escamas douradas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes laguna"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D12",
+      "key_id": "D",
+      "step_number": 12,
+      "title": "Espécies de Aedes — Passo 12",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com os tergitos cobertos inteiramente de escamas amarelo-douradas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes bimaculatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com os tergitos apicalmente revestidos de escamas escuras e basolateralmente de elementos dourados ou amarelados",
+        "image": "ArboTeamPng.png",
+        "next_step": "D13",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D13",
+      "key_id": "D",
+      "step_number": 13,
+      "title": "Espécies de Aedes — Passo 13",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com tegumento apresentando mancha acentuadamente escura, posterolateral, junto à raiz das asas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes stigmaticus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com tegumento apresentando mancha escura postero-lateral pouco acentuada; faixa pigmentada de tonalidade marrom escura, atingindo o mesanepímero (Mam) e o mesocatepisterno (Mcs)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes fulvus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D14",
+      "key_id": "D",
+      "step_number": 14,
+      "title": "Espécies de Aedes — Passo 14",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros com marcação clara, pelo menos os posteriores, entendendo-se como tal a presença de anéis com essa tonalidade, mas não a existência de possíveis faixas claras longitudinais esmaecidas ou não, na face posterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "D15",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros escuros, feita a ressalva constante da dicotomia anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "D18",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D15",
+      "key_id": "D",
+      "step_number": 15,
+      "title": "Espécies de Aedes — Passo 15",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide (P) com anel claro mediano, distinto",
+        "image": "ArboTeamPng.png",
+        "next_step": "D16",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide (P) sem anel claro mediano evidente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D17",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D16",
+      "key_id": "D",
+      "step_number": 16,
+      "title": "Espécies de Aedes — Passo 16",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com tergitos apresentando somente faixas basais de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes taeniorhynchus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com tergitos apresentando, além das faixas basais de escamas claras, áreas medianas dessa tonalidade de maneira a formar linha longitudinal contínua na face dorsal dessa parte do corpo",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes sollicitans"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D17",
+      "key_id": "D",
+      "step_number": 17,
+      "title": "Espécies de Aedes — Passo 17",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros com marcação clara evidente nos três tarsos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes milleri"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros com marcação clara mais evidente no tarso posterior, não apresentada nos outros tarsômeros ou apenas em alguns deles",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes bejaranoi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D18",
+      "key_id": "D",
+      "step_number": 18,
+      "title": "Espécies de Aedes — Passo 18",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tegumento torácico amarelo",
+        "image": "ArboTeamPng.png",
+        "next_step": "D19",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tegumento torácico de tonalidade marrom escuro",
+        "image": "ArboTeamPng.png",
+        "next_step": "D20",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D19",
+      "key_id": "D",
+      "step_number": 19,
+      "title": "Espécies de Aedes — Passo 19",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com numerosas escamas amareladas esparsas, sem formarem mancha definida",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes hortator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com duas faixas medianas de escamas escuras, além de mancha posterolateral da mesma tonalidade, junto à raiz alar",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes perventor"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D20",
+      "key_id": "D",
+      "step_number": 20,
+      "title": "Espécies de Aedes — Passo 20",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com tergitos destituídos de faixas basais de escamas claras contínuas, somente formando áreas basolaterais dessa tonalidade",
+        "image": "ArboTeamPng.png",
+        "next_step": "D21",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com tergitos apresentando faixas basais de escamas claras contínuas, pelo menos em alguns deles",
+        "image": "ArboTeamPng.png",
+        "next_step": "D28",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D21",
+      "key_id": "D",
+      "step_number": 21,
+      "title": "Espécies de Aedes — Passo 21",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com escamas claras dispostas em faixas longitudinais ou em manchas, formando desenho",
+        "image": "ArboTeamPng.png",
+        "next_step": "D22",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) totalmente coberto de escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes serratus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D22",
+      "key_id": "D",
+      "step_number": 22,
+      "title": "Espécies de Aedes — Passo 22",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com duas faixas longitudinais paramedianas de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes angustivittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com escamas claras medianas, formando faixa ou mancha",
+        "image": "ArboTeamPng.png",
+        "next_step": "D23",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D23",
+      "key_id": "D",
+      "step_number": 23,
+      "title": "Espécies de Aedes — Passo 23",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com as escamas claras dispostas formando faixa mediana longitudinal",
+        "image": "ArboTeamPng.png",
+        "next_step": "D24",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com as escamas claras dispostas em mancha conspícua ocupando a parte anterior da área",
+        "image": "ArboTeamPng.png",
+        "next_step": "D27",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D24",
+      "key_id": "D",
+      "step_number": 24,
+      "title": "Espécies de Aedes — Passo 24",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Lobo mediano do escutelo (Eto) com escamas douradas ou levemente bronzeadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes serratus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobo mediano do escutelo (Eto) com escamas brancas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D25",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D25",
+      "key_id": "D",
+      "step_number": 25,
+      "title": "Espécies de Aedes — Passo 25",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Espécie com indivíduos de porte médio ou grande, com envergadura alar feminina de 3,0 mm ou mais",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes tormentor"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Espécie com indivíduos de porte pequeno, com envergadura alar feminina de 2,5 mm ou menos",
+        "image": "ArboTeamPng.png",
+        "next_step": "D26",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D26",
+      "key_id": "D",
+      "step_number": 26,
+      "title": "Espécies de Aedes — Passo 26",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Occipício (Occ) com faixa central de escamas brancas estreitas e limitadas submedianamente por conjunto de outras, largas de tonalidade análoga",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes dupreei"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Occipício (Occ) com a mesma faixa central, porém limitada analogamente por conjunto de escamas largas e escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes serratus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D27",
+      "key_id": "D",
+      "step_number": 27,
+      "title": "Espécies de Aedes — Passo 27",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com a mancha formada pelas escamas claras, apresentando contornos irregulares e angulosos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes rhyacophylus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com a mancha formada pelas escamas claras, apresentando contornos regulares e arredondados",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes scapularis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D28",
+      "key_id": "D",
+      "step_number": 28,
+      "title": "Espécies de Aedes — Passo 28",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) coberto de escamas de tonalidade marrom na parte central e amarelada na lateral da área",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes obturbator"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) coberto de escamas formando faixas ou manchas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D29",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D29",
+      "key_id": "D",
+      "step_number": 29,
+      "title": "Espécies de Aedes — Passo 29",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com desenho formado por uma ou mais manchas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D30",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com desenho formado por uma ou mais faixas claras longitudinais",
+        "image": "ArboTeamPng.png",
+        "next_step": "D38",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D30",
+      "key_id": "D",
+      "step_number": 30,
+      "title": "Espécies de Aedes — Passo 30",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia posterior apresentando a superfície anterior branca, a qual pode circundar esse segmento; probóscide (P) ventralmente clara",
+        "image": "ArboTeamPng.png",
+        "next_step": "D31",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia posterior inteiramente escura; probóscide (P) inteiramente escura",
+        "image": "ArboTeamPng.png",
+        "next_step": "D32",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D31",
+      "key_id": "D",
+      "step_number": 31,
+      "title": "Espécies de Aedes — Passo 31",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (E.se) com a parte anterior coberta de escamas predominantemente bronzeadas, tendendo à tonalidade amarelada na parte posterior dessa área",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes phaeonotus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com a parte anterior coberta de escamas brancas, às vezes amareladas, tendendo à tonalidade bronzeada na parte lateral dessa área",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes scapularis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D32",
+      "key_id": "D",
+      "step_number": 32,
+      "title": "Espécies de Aedes — Passo 32",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) inteiramente coberto de escamas claras, amareladas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes thelcter"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com escamas claras e escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D33",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D33",
+      "key_id": "D",
+      "step_number": 33,
+      "title": "Espécies de Aedes — Passo 33",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior escuro, destituído de ápice claro na articulação com a tíbia correspondente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes infirmatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior com ápice claro na articulação com a tíbia correspondente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D34",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D34",
+      "key_id": "D",
+      "step_number": 34,
+      "title": "Espécies de Aedes — Passo 34",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com mancha ou pequenas manchas de escamas claras, formando desenho indistinto de escamas claras, douradas, brancas ou mesmo bronzeadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes tortilis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com mancha, apreciavelmente delineada formada por escamas brancas em sua totalidade",
+        "image": "ArboTeamPng.png",
+        "next_step": "D35",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D35",
+      "key_id": "D",
+      "step_number": 35,
+      "title": "Espécies de Aedes — Passo 35",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com a mancha anterior de escamas brancas dividida longitudinalmente por linha de escamas bronzeadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes raymondi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem linha longitudinal de escamas bronzeadas dividindo a mancha clara",
+        "image": "ArboTeamPng.png",
+        "next_step": "D36",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D36",
+      "key_id": "D",
+      "step_number": 36,
+      "title": "Espécies de Aedes — Passo 36",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Cabeça com as escamas erectas numerosas e alongadas, estendendo-se em direção anterior até o vértice(v), e escuras, em sua maioria",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes pectinatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cabeça com escamas eretas de aspecto diferente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D37",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D37",
+      "key_id": "D",
+      "step_number": 37,
+      "title": "Espécies de Aedes — Passo 37",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos maxilares (PlpM) aparentemente com 3 (três) palpômeros; espécie centro e norte sul-americana",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes euplocanius"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos maxilares (PlpM) aparentemente com 4 (quatro) palpômeros; espécie meridional sul-americana",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes patersoni"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D38",
+      "key_id": "D",
+      "step_number": 38,
+      "title": "Espécies de Aedes — Passo 38",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) ornamentado com uma só faixa longitudinal, clara, mediana e larga",
+        "image": "ArboTeamPng.png",
+        "next_step": "D39",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) ornamentado com mais de uma faixa longitudinal clara",
+        "image": "ArboTeamPng.png",
+        "next_step": "D41",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D39",
+      "key_id": "D",
+      "step_number": 39,
+      "title": "Espécies de Aedes — Passo 39",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fileira de cerdas dorsocentrais (SD), bem evidente; abdome com os esternitos dotados de linha mediana longitudinal de escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes bogotanus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fileira de cerdas dorsocentrais (SD), ausente ou pouco evidente; abdome com os esternitos inteiramente escuros ou com escamas escuras não formando linha longitudinal mediana",
+        "image": "ArboTeamPng.png",
+        "next_step": "D40",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D40",
+      "key_id": "D",
+      "step_number": 40,
+      "title": "Espécies de Aedes — Passo 40",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com a faixa clara terminando no limite com a área pré-escutelar (Apr)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes condolescens"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com a faixa clara contornando lateralmente a área pré-escutelar (Apr) e estendendo-se até o escutelo (Eto), de maneira a este apresentar três conjuntos de escamas claras, cada uma correspondente a cada lobo",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes synchitus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D41",
+      "key_id": "D",
+      "step_number": 41,
+      "title": "Espécies de Aedes — Passo 41",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas escuras do occipício (0cc) formando mancha proeminente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes incomptus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas escuras do occipício (0cc) sem constituírem mancha proeminente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D42",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D42",
+      "key_id": "D",
+      "step_number": 42,
+      "title": "Espécies de Aedes — Passo 42",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com linhas longitudinais de escamas escuras, separando nesse sentido três faixas também longitudinais de escamas claras, estas como componentes de ampla área clara anterior do escudo (Esc)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes crinifer"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com duas faixas claras, brancas ou amareladas, na área dorsocentral (AD)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D43",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D43",
+      "key_id": "D",
+      "step_number": 43,
+      "title": "Espécies de Aedes — Passo 43",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Articulações fêmuro-tibiais, principalmente a posterior, com escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D44",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Articulações fêmuro-tibiais, totalmente escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D45",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D44",
+      "key_id": "D",
+      "step_number": 44,
+      "title": "Espécies de Aedes — Passo 44",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Linhas de escamas claras dorsocentrais (ED), contínuas até o escutelo (Eto)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes trivittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Linhas de escamas claras dorsocentrais (ED), interrompidas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes atactivittatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D45",
+      "key_id": "D",
+      "step_number": 45,
+      "title": "Espécies de Aedes — Passo 45",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Linhas de escamas claras dorsocentrais (ED), contínuas e sem se expandir com as escamas supra-alares (ESa)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes angustivittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Linhas de escamas claras dorsocentrais (ED), contínuas mas expandindo-se com as escamas supra-alares (ESa)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes meprai"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D46",
+      "key_id": "D",
+      "step_number": 46,
+      "title": "Espécies de Aedes — Passo 46",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas claras e escuras, aquelas limitadas a pequenos ou médios conjuntos localizados na base das veias costa ( C) e rádio (R)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D47",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas escuras, em sua totalidade",
+        "image": "ArboTeamPng.png",
+        "next_step": "D51",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D47",
+      "key_id": "D",
+      "step_number": 47,
+      "title": "Espécies de Aedes — Passo 47",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Palpos maxilares (PlpM) femininos com escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes mediovittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Palpos maxilares (PlpM) femininos, inteiramente escuros",
+        "image": "ArboTeamPng.png",
+        "next_step": "D48",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D48",
+      "key_id": "D",
+      "step_number": 48,
+      "title": "Espécies de Aedes — Passo 48",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos posteriores, com os tarsômeros Ta-3 a 5 apresentando marcação clara basal",
+        "image": "ArboTeamPng.png",
+        "next_step": "D49",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos posteriores, com os tarsômeros Ta-3 a 5 inteiramente escuros",
+        "image": "ArboTeamPng.png",
+        "next_step": "D50",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D49",
+      "key_id": "D",
+      "step_number": 49,
+      "title": "Espécies de Aedes — Passo 49",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Marcação clara basal visível somente nos tarsômeros Ta 3 a 5, sendo o último (Ta-5) a mais das vezes inteiramente claro",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes epactius"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Marcação clara basal visível em todos os tarsômeros",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes fluviatilis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D50",
+      "key_id": "D",
+      "step_number": 50,
+      "title": "Espécies de Aedes — Passo 50",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarso posterior totalmente escuro e destituído de marcação clara na articulação dos tarsômeros Ta 1 e 2",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes upatensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarso posterior com área clara na articulação dos tarsômeros Ta 1 e 2",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes kompi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D51",
+      "key_id": "D",
+      "step_number": 51,
+      "title": "Espécies de Aedes — Passo 51",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com conspícuo anel escuro basal e a mácula da área supra-alar (ASa) atingindo a sutura escudo-escutelo (see)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D52",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Ambas as condições acima descritas não ocorrendo simultaneamente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D61",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D52",
+      "key_id": "D",
+      "step_number": 52,
+      "title": "Espécies de Aedes — Passo 52",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros médios e posteriores, com marcação basal clara bem discreta ou imperceptível",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes buenaventura"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros médios e posteriores, com marcação basal clara evidente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D53",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D53",
+      "key_id": "D",
+      "step_number": 53,
+      "title": "Espécies de Aedes — Passo 53",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero mediano Ta-5, claro",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes alboapicus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero mediano Ta-5, escuro; o Ta-5 posterior, sempre escuro",
+        "image": "ArboTeamPng.png",
+        "next_step": "D54",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D54",
+      "key_id": "D",
+      "step_number": 54,
+      "title": "Espécies de Aedes — Passo 54",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "As escamas deitadas dispostas ao longo da sutura coronária (se) do vértice (V), todas largas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D55",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "As escamas deitadas dispostas ao longo da sutura coronária (se) do vértice ( V), todas estreitas e curvas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D56",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D55",
+      "key_id": "D",
+      "step_number": 55,
+      "title": "Espécies de Aedes — Passo 55",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com área clara transversal na parte anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes thorntoni"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem área clara transversal na parte anterior; poucas ou raras escamas brancas esparsas pela superfície restante do escudo (Esc) e da área pré-escutelar (Apr)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes argyrothorax"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D56",
+      "key_id": "D",
+      "step_number": 56,
+      "title": "Espécies de Aedes — Passo 56",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas subespiraculares (EASe), ausentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D57",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas subespiraculares (EASe), presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D58",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D57",
+      "key_id": "D",
+      "step_number": 57,
+      "title": "Espécies de Aedes — Passo 57",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) com todas as escamas deitadas, estreitas e curvas, a maioria ao longo da sutura coronária (se)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes metoecopus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) com área na qual observa-se a presença de escamas deitadas largas, situado adjacente à linha de escamas da sutura coronária (se) que se mostram claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes berlirni"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D58",
+      "key_id": "D",
+      "step_number": 58,
+      "title": "Espécies de Aedes — Passo 58",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) com todas as escamas deitadas, estreitas e curvas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D59",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) com área na qual observa-se a presença de escamas deitadas largas, situado adjacente à linha de escamas da sutura coronária (sc)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D60",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D59",
+      "key_id": "D",
+      "step_number": 59,
+      "title": "Espécies de Aedes — Passo 59",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pré-alares (SPal), escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes braziliensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pré-alares (SPal), claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes insolitus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D60",
+      "key_id": "D",
+      "step_number": 60,
+      "title": "Espécies de Aedes — Passo 60",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com faixa escura basal estreita (cerca de 0,05); espécie do México",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes homoeopus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior com faixa escura basal larga (mais de 0,10); espécie do Panamá e da América do Sul",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes terrens"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D61",
+      "key_id": "D",
+      "step_number": 61,
+      "title": "Espécies de Aedes — Passo 61",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Ese) com parte clara anterior, transversa",
+        "image": "ArboTeamPng.png",
+        "next_step": "D62",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem parte clara anterior, transversa",
+        "image": "ArboTeamPng.png",
+        "next_step": "D63",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D62",
+      "key_id": "D",
+      "step_number": 62,
+      "title": "Espécies de Aedes — Passo 62",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Pós-pronoto (Ppn), com escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes bertrami"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pós-pronoto (Ppn), com escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes aitkeni"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D63",
+      "key_id": "D",
+      "step_number": 63,
+      "title": "Espécies de Aedes — Passo 63",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5, claro",
+        "image": "ArboTeamPng.png",
+        "next_step": "D64",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta -5, escuro",
+        "image": "ArboTeamPng.png",
+        "next_step": "D66",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D64",
+      "key_id": "D",
+      "step_number": 64,
+      "title": "Espécies de Aedes — Passo 64",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero anterior Ta-1 com cerca da metade apical, clara",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes diazi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero anterior Ta-1 com, sensivelmente, menos da metade apical, clara",
+        "image": "ArboTeamPng.png",
+        "next_step": "D65",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D65",
+      "key_id": "D",
+      "step_number": 65,
+      "title": "Espécies de Aedes — Passo 65",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Mácula da área supra-alar (ASa) alcançando amplamente a sutura escudo-escutelo (see)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes casali"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mácula da área supra-alar (ASa), raramente alcançando a sutura escudo-escutelo (see) e, quando isso ocorre, de maneira discreta",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes galindoi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D66",
+      "key_id": "D",
+      "step_number": 66,
+      "title": "Espécies de Aedes — Passo 66",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas acrosticais (SAc), ausentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D67",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas acrosticais (SAc), presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D69",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D67",
+      "key_id": "D",
+      "step_number": 67,
+      "title": "Espécies de Aedes — Passo 67",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide (P) mais curta do que o fêmur anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes podographicus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide (P) mais longa do que o fêmur anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "D68",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D68",
+      "key_id": "D",
+      "step_number": 68,
+      "title": "Espécies de Aedes — Passo 68",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) com todas as escamas deitadas, claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes tehuantepec"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) com as escamas deitadas, claras e escuras, estas tendendo a formar mancha submediana",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes schroederi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D69",
+      "key_id": "D",
+      "step_number": 69,
+      "title": "Espécies de Aedes — Passo 69",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur mediano com a articulação com a tíbia correspondente, amplamente marcada",
+        "image": "ArboTeamPng.png",
+        "next_step": "D70",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur mediano com a articulação com a tíbia correspondente, sem marcação ou, quando existente, de maneira discreta",
+        "image": "ArboTeamPng.png",
+        "next_step": "D76",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D70",
+      "key_id": "D",
+      "step_number": 70,
+      "title": "Espécies de Aedes — Passo 70",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas subespiraculares (EASe), ausentes, se bem que é possível observar a presença de raros (um ou dois) desses elementos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes vargasi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas subespiraculares (EASe), presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D71",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D71",
+      "key_id": "D",
+      "step_number": 71,
+      "title": "Espécies de Aedes — Passo 71",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide (P) mais curta ou de comprimento subigual ao do fêmur anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "D72",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide (P) mais longa do que o fêmur anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "D73",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D72",
+      "key_id": "D",
+      "step_number": 72,
+      "title": "Espécies de Aedes — Passo 72",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas acrosticais (SAc) ausentes ou, então, com algumas escamas claras (EAc), como que representando a linha acrostical",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes sumidero"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas acrosticais (SAc), presentes (linha acrostical)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes gabriel"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D73",
+      "key_id": "D",
+      "step_number": 73,
+      "title": "Espécies de Aedes — Passo 73",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur anterior marcado na articulação com a tíbia correspondente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes amabilis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur anterior não marcado na articulação com a tíbia correspondente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D74",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D74",
+      "key_id": "D",
+      "step_number": 74,
+      "title": "Espécies de Aedes — Passo 74",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértice (V) dotado de área com escamas deitadas, largas, adjacente à de escamas estreitas e curvas, na sutura coronária (se)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes idanus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértice (V) com todas as escamas deitadas, estreitas e curvas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D75",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D75",
+      "key_id": "D",
+      "step_number": 75,
+      "title": "Espécies de Aedes — Passo 75",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Lobo mediano do escutelo (Eto), com escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes homoeopus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobo mediano do escutelo (Eto) sem escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes heteropus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D76",
+      "key_id": "D",
+      "step_number": 76,
+      "title": "Espécies de Aedes — Passo 76",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Mácula da área supra-alar (ASa), alcançando a sutura escudo-escutelo (see)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes daryi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mácula da área supra-alar (ASa), não alcançando a sutura escudo-escutelo",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes galindoi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D77",
+      "key_id": "D",
+      "step_number": 77,
+      "title": "Espécies de Aedes — Passo 77",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Paratergito (Pa) sem escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D78",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Paratergito (Pa) com escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D88",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D78",
+      "key_id": "D",
+      "step_number": 78,
+      "title": "Espécies de Aedes — Passo 78",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) coberto de escamas escuras ou bronzeadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes calumnior"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) coberto de escamas claras, ao menos lateralmente",
+        "image": "ArboTeamPng.png",
+        "next_step": "D79",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D79",
+      "key_id": "D",
+      "step_number": 79,
+      "title": "Espécies de Aedes — Passo 79",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com escamas douradas, em sua totalidade",
+        "image": "ArboTeamPng.png",
+        "next_step": "D80",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com escamas claras dispostas nas margens laterais da área",
+        "image": "ArboTeamPng.png",
+        "next_step": "D82",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D80",
+      "key_id": "D",
+      "step_number": 80,
+      "title": "Espécies de Aedes — Passo 80",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Pleura com ampla mancha clara, de escamas metálicas, contínua e estendendo-se desde o botão pré-alar (BPal), cobrindo todo o mesocatepisterno (Mcs)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes aurites"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleura sem essa mancha clara contínua, mas subdividida em outras, menores, em número de três",
+        "image": "ArboTeamPng.png",
+        "next_step": "D81",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D81",
+      "key_id": "D",
+      "step_number": 81,
+      "title": "Espécies de Aedes — Passo 81",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área antealar (AAn), com escamas douradas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes grabhami"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área antealar (AAn), com numerosas escamas bronzeadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes inaequalis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D82",
+      "key_id": "D",
+      "step_number": 82,
+      "title": "Espécies de Aedes — Passo 82",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área subespiracular (Ase), sem escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D83",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área subespiracular (Ase), com escamas (EAse)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D84",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D83",
+      "key_id": "D",
+      "step_number": 83,
+      "title": "Espécies de Aedes — Passo 83",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área dorsocentral (AD), com linha contínua",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes walkeri"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área dorsocentral (AD), com linha tracejada",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes argyrites"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D84",
+      "key_id": "D",
+      "step_number": 84,
+      "title": "Espécies de Aedes — Passo 84",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas acrosticais (SAc) presentes; palpos maxilares (PlpM), escuros em ambos os sexos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes busckii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas acrosticais (SAc) ausentes; palpos maxilares (PlpM) com marcação clara apical na fêmea e basal em alguns dos palpômeros do macho",
+        "image": "ArboTeamPng.png",
+        "next_step": "D85",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D85",
+      "key_id": "D",
+      "step_number": 85,
+      "title": "Espécies de Aedes — Passo 85",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5, com escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D86",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5, somente com escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D87",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D86",
+      "key_id": "D",
+      "step_number": 86,
+      "title": "Espécies de Aedes — Passo 86",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5, inteiramente claro",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes ioliota"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5, com algumas escamas escuras no ápice e na face posterior",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes cozumelensis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D87",
+      "key_id": "D",
+      "step_number": 87,
+      "title": "Espécies de Aedes — Passo 87",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-3, com claro basal até 0,5",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes bahamensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-3, com, pelo menos, 0,7 de claro basal",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes albonotatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D88",
+      "key_id": "D",
+      "step_number": 88,
+      "title": "Espécies de Aedes — Passo 88",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com a área acrostical (AA) como linha, sempre escura",
+        "image": "ArboTeamPng.png",
+        "next_step": "D89",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com a área acrostical (AA) como linha clara, amarelada ou dourada",
+        "image": "ArboTeamPng.png",
+        "next_step": "D103",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D89",
+      "key_id": "D",
+      "step_number": 89,
+      "title": "Espécies de Aedes — Passo 89",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur mediano sem indícios de escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D90",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur mediano com escamas claras evidentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "D92",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D90",
+      "key_id": "D",
+      "step_number": 90,
+      "title": "Espécies de Aedes — Passo 90",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área dorsocentral (AD), como linha que não chega a atingir, anteriormente, a margem lateral do escudo (Esc)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes brevis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área dorsocentral (AD), como linha que chega a atingir, anteriormente, a margem lateral do escudo (Esc)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D91",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D91",
+      "key_id": "D",
+      "step_number": 91,
+      "title": "Espécies de Aedes — Passo 91",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas pós-pronotais (EPpn), de aspecto predominantemente estreito e de tonalidade amarelada; primeiro flagelômero (Flm-1), com escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes quadrivittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas pós-pronotais (EPpn), de aspecto predominantemente largo e de tonalidade branca; primeiro flagelômero (Flm-1) com escamas brancas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes lorraineae"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D92",
+      "key_id": "D",
+      "step_number": 92,
+      "title": "Espécies de Aedes — Passo 92",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área antealar (AAn) com numerosas escamas bronzeadas (EAn), inferiormente situadas em relação às situadas na área supra-alar (ASa), estas dispostas em linha estreita e de tonalidade dourada",
+        "image": "ArboTeamPng.png",
+        "next_step": "D93",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área antealar (AAn) com escamas esbranquiçadas, amareladas ou douradas (EAn), formando conjunto com as supra-alares (ESa)",
+        "image": "ArboTeamPng.png",
+        "next_step": "D95",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D93",
+      "key_id": "D",
+      "step_number": 93,
+      "title": "Espécies de Aedes — Passo 93",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área dorsocentral (AD) como linha alcançando a margem anterior do escudo (Esc); o toro (To), com pequeno conjunto mediano de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes sexlineatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área dorsocentral (AD) como linha que não chega a alcançar a margem anterior do escudo (Esc); o toro (To), com amplo anel de escamas claras, apenas dorsalmente interrompido",
+        "image": "ArboTeamPng.png",
+        "next_step": "D94",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D94",
+      "key_id": "D",
+      "step_number": 94,
+      "title": "Espécies de Aedes — Passo 94",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-3 com marcação clara; linha da área dorsocentral (AD) com a extremidade anterior terminando em mácula de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes whitmorei"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-3 sem marcação clara; linha da área dorsocentral (AD) sem mácula anterior de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes pseudodominicii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D95",
+      "key_id": "D",
+      "step_number": 95,
+      "title": "Espécies de Aedes — Passo 95",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Base da veia alar R, com escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D96",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Base da veia alar R, sem escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D98",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D96",
+      "key_id": "D",
+      "step_number": 96,
+      "title": "Espécies de Aedes — Passo 96",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Somente o tarsômero posterior Ta-1, dotado de marcação clara; haltere com o capitelo (Ca), dotado somente de escamas claras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes vanemdeni"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Os tarsômeros posteriores Ta-1 a 3, com marcações claras; haltere com o capitelo (Ca), dotado de escamas claras e escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": "D97",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D97",
+      "key_id": "D",
+      "step_number": 97,
+      "title": "Espécies de Aedes — Passo 97",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Área dorsocentral (AD), como linha alcançando a margem anterior do escudo (Esc)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes aurivittatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área dorsocentral (AD), como linha que não chega a atingir a margem anterior do escudo (Esc)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes martinezi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D98",
+      "key_id": "D",
+      "step_number": 98,
+      "title": "Espécies de Aedes — Passo 98",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Marcação clara basal dos tarsômeros posteriores, presente apenas nos Ta-1 e Ta-3",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes eleanorae"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Marcação clara basal dos tarsômeros posteriores, apenas em um dos segmentos ou em vários deles até Ta-4",
+        "image": "ArboTeamPng.png",
+        "next_step": "D99",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D99",
+      "key_id": "D",
+      "step_number": 99,
+      "title": "Espécies de Aedes — Passo 99",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Marcação clara basal dos tarsômeros posteriores, variando de acordo com os segmentos, mas nunca em Ta-4",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes ecuadoriensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Marcação clara basal dos tarsômeros posteriores, presente em Ta-1 a 4",
+        "image": "ArboTeamPng.png",
+        "next_step": "D100",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D100",
+      "key_id": "D",
+      "step_number": 100,
+      "title": "Espécies de Aedes — Passo 100",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com mácula clara distinta na parte escura da superfície anterior dos segmentos, sem confluir com a faixa basal clara",
+        "image": "ArboTeamPng.png",
+        "next_step": "D101",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior sem mácula clara na parte escura da superfície anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes marinkellei"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D101",
+      "key_id": "D",
+      "step_number": 101,
+      "title": "Espécies de Aedes — Passo 101",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Marcação clara basal dos tarsômeros posteriores, presente apenas em Ta-1 e Ta-2",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes guatemala"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Marcação clara basal dos tarsômeros posteriores, presente nos Ta-1 a 3",
+        "image": "ArboTeamPng.png",
+        "next_step": "D102",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D102",
+      "key_id": "D",
+      "step_number": 102,
+      "title": "Espécies de Aedes — Passo 102",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas pós-espiraculares (EAP), presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes guerrero"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas pós-espiraculares (EAP), ausentes",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes allotecnon"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "D103",
+      "key_id": "D",
+      "step_number": 103,
+      "title": "Espécies de Aedes — Passo 103",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com a parte anterior coberta de escamas douradas formando assim extensa mancha que se estende até a raiz da asa, enquanto na parte posterior pode-se observar a existência de escamas escuras",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes fulvithorax"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com a parte anterior não inteiramente dourada, com máculas ou faixas de escamas bronzeadas",
+        "image": "ArboTeamPng.png",
+        "next_step": "D104",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "D104",
+      "key_id": "D",
+      "step_number": 104,
+      "title": "Espécies de Aedes — Passo 104",
+      "taxon_context": "Culicinae > Aedini > Aedes",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com somente a área acrostical (AA), como linha de aspecto dourado evidente na parte anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes aurolineatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com não apenas a área acrostical (AA), mas também a área dorsocentral (AD), apresentando-se como linhas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Aedes septemstriatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "E1",
+      "key_id": "E",
+      "step_number": 1,
+      "title": "Espécies de Haemagogus — Passo 1",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas do mesonoto marrom-escuras, com escamas prateadas em manchas ou linhas conspícuas nas áreas acrostical, antealar e pré-escutelar; pleura com três arcos verticais de escamas prateadas; mesonoto com linha acrostical de largura variável e se estendendo além da metade anterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "E2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas do mesonoto metálicas (verde, azul, cobre ou bronze), com escamas prateadas apenas na área antealar; pleura com apenas uma faixa vertical larga de escamas prateadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "E3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "E2",
+      "key_id": "E",
+      "step_number": 2,
+      "title": "Espécies de Haemagogus — Passo 2",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Mancha de escamas mesepimeral com extensão moderadamente longa na parte superior; escamas eretas da cabeça completamente marrom-escuras ou enegrecidas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus leucophoebus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mancha de escamas mesepimeral simples ou com uma extensão curta na parte superior; escamas eretas da cabeça completamente marrom-claras ou parcialmente brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus leucocelaenus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "E3",
+      "key_id": "E",
+      "step_number": 3,
+      "title": "Espécies de Haemagogus — Passo 3",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas no mesoposnoto, garras das pernas das fêmeas sem dente sub-basal.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus celeste"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Sem cerdas no mesoposnoto, garras das pernas anteriores e médias das fêmeas com dente sub-basal.",
+        "image": "ArboTeamPng.png",
+        "next_step": "E4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "E4",
+      "key_id": "E",
+      "step_number": 4,
+      "title": "Espécies de Haemagogus — Passo 4",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Pós-pronoto sem escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus tropicalis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pós-pronoto com escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "E5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "E5",
+      "key_id": "E",
+      "step_number": 5,
+      "title": "Espécies de Haemagogus — Passo 5",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios cobertos somente com escamas escuras, probóscida curta, com menos de 1,40X do comprimento do fêmur anterior, espaço entre os olhos estreito (1-2 diâmetros de omatídeos), abdome com escamas prateadas dorsais restritas aos tergitos IV-VII ou ausentes, sem manchas nos joelhos nos fêmures médios e posteriores, mesocatepisterno inferior com cerda bem desenvolvida.",
+        "image": "ArboTeamPng.png",
+        "next_step": "E6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tudo igual acima, mas sem cerda bem desenvolvida no mesocatepisterno inferior.",
+        "image": "ArboTeamPng.png",
+        "next_step": "E7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "E6",
+      "key_id": "E",
+      "step_number": 6,
+      "title": "Espécies de Haemagogus — Passo 6",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com escamas prateadas estendendo-se anteriormente quase até o ápice; escamas escuras do abdome usualmente predominantemente purpúreas, mas com escamas de matiz azul-esverdeado na margem distal dos tergitos V-VIII; probóscida com 1,10-1,15X o comprimento do fêmur anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus janthinomys"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior com escamas prateadas não se estendendo anteriormente além de 0,75 do comprimento; escamas escuras dos tergitos abdominais I-VII purpúreas; probóscida com 1,25X o comprimento do fêmur anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus albomaculatus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "E7",
+      "key_id": "E",
+      "step_number": 7,
+      "title": "Espécies de Haemagogus — Passo 7",
+      "taxon_context": "Culicinae > Aedini > Haemagogus",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscida da fêmea curta, 1,10 do comprimento do fêmur anterior; escamas do mesonoto predominantemente azul-escuras; coxas com manchas conspícuas de escamas escuras; R2+3 1,20-1,50 de R2, escamas abdominais escuras purpúreas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus baresi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscida da fêmea com pelo menos 1,20 do fêmur anterior; escamas do mesonoto predominantemente cúpreas ou bronzeadas claras; coxas totalmente prateadas ou raramente com escamas escuras na coxa média; R2+3 1,20-1,50 de R2, escamas abdominais escuras com nuanças de azul, verde ou dourado; lobos antepronotais totalmente cobertos com escamas prateadas; tergitos abdominais sem escamas prateadas dorsalmente; escamas pós-pronotais douradas a cúpreas, escamas decumbentes do vértice verdes a douradas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Haemagogus spegazzinii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F1",
+      "key_id": "F",
+      "step_number": 1,
+      "title": "Espécies de Psorophora — Passo 1",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) apresentando áreas longitudinais desnudas, marginadas por escamas claras e escuras; fêmur e tíbia posteriores densamente revestidos de escamas suberectas, dando às pernas aspecto hirsuto; mosquitos de porte avantajado (Subgênero Psorophora).",
+        "image": "ArboTeamPng.png",
+        "next_step": "F2",
+        "set_taxonomy": {
+          "subgenero": "Psorophora"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) uniformemente revestido de escamas, sem áreas longitudinais desnudas; pernas posteriores normalmente revestidas ou apenas moderadamente hirsutas; mosquitos de porte médio ou pequeno (Subgêneros Janthinosoma e Grabhamia).",
+        "image": "ArboTeamPng.png",
+        "next_step": "F7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F2",
+      "key_id": "F",
+      "step_number": 2,
+      "title": "Espécies de Psorophora — Passo 2",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros escuros em todas as pernas, isto é, destituídos de marcação clara.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros com marcação clara, pelo menos em algumas pernas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F3",
+      "key_id": "F",
+      "step_number": 3,
+      "title": "Espécies de Psorophora — Passo 3",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmur posterior com marcação clara na articulação com a tíbia.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora saeva"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmur posterior sem marcação clara na articulação com a tíbia.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F4",
+      "key_id": "F",
+      "step_number": 4,
+      "title": "Espécies de Psorophora — Passo 4",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Pleura com escamas abundantes e uniformemente esparsas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora cilipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pleura com escamas pouco numerosas e distribuídas em conjuntos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora lineata"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F5",
+      "key_id": "F",
+      "step_number": 5,
+      "title": "Espécies de Psorophora — Passo 5",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com linha longitudinal mediana de escamas escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora holmbergii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com linha longitudinal de escamas douradas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F6",
+      "key_id": "F",
+      "step_number": 6,
+      "title": "Espécies de Psorophora — Passo 6",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas da asa totalmente escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora ciliata"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas da asa claras e escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora pallescens"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F7",
+      "key_id": "F",
+      "step_number": 7,
+      "title": "Espécies de Psorophora — Passo 7",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Garras tarsais (G) femininas, denteadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F8",
+        "set_taxonomy": {
+          "subgenero": "Janthinosoma"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Garras tarsais (G) femininas, lisas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F21",
+        "set_taxonomy": {
+          "subgenero": "Grabhamia"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F8",
+      "key_id": "F",
+      "step_number": 8,
+      "title": "Espécies de Psorophora — Passo 8",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros inteiramente escuros, sem marcação clara.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros com marcação clara, pelo menos em alguns segmentos proximais posteriores.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F11",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F9",
+      "key_id": "F",
+      "step_number": 9,
+      "title": "Espécies de Psorophora — Passo 9",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo revestido por escamas claras, de maneira esparsa.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com escamas escuras na área central e posterior, além de elementos de tonalidade escura na área anterior e nas áreas laterais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora lanei"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F10",
+      "key_id": "F",
+      "step_number": 10,
+      "title": "Espécies de Psorophora — Passo 10",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com os tergitos dotados de áreas triangulares claras, em situação apicomediana.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora cyanescens"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com os tergitos dotados de áreas claras em situação apicolateral.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora johnstonii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F11",
+      "key_id": "F",
+      "step_number": 11,
+      "title": "Espécies de Psorophora — Passo 11",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5, inteiramente escuro.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F12",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5, inteiramente claro.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F14",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F12",
+      "key_id": "F",
+      "step_number": 12,
+      "title": "Espécies de Psorophora — Passo 12",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com escamas escuras na área central e claras amareladas nas laterais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora varipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com escamas claras esparsas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F13",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F13",
+      "key_id": "F",
+      "step_number": 13,
+      "title": "Espécies de Psorophora — Passo 13",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas laterais do escudo de tonalidade amarelada ou dourada.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora discrucians"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas laterais do escudo de tonalidade branca.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora albigenu"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F14",
+      "key_id": "F",
+      "step_number": 14,
+      "title": "Espécies de Psorophora — Passo 14",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com escamas escuras na área central e claras na lateral.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F15",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com escamas claras e escuras, misturadas de maneira um tanto homogênea.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F20",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F15",
+      "key_id": "F",
+      "step_number": 15,
+      "title": "Espécies de Psorophora — Passo 15",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Fêmures sem marcação clara na articulação com as tíbias.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F16",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Fêmures com marcação clara na articulação com as tíbias.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F17",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F16",
+      "key_id": "F",
+      "step_number": 16,
+      "title": "Espécies de Psorophora — Passo 16",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Lobo mediano do escutelo (Eto) com escamas escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora circumflava"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobo mediano do escutelo (Eto) com escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora totonaci"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F17",
+      "key_id": "F",
+      "step_number": 17,
+      "title": "Espécies de Psorophora — Passo 17",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Área pré-escutelar (Apr) e escutelo (Eto) com escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora champerico"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área pré-escutelar (Apr) e escutelo (Eto) com escamas escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F18",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F18",
+      "key_id": "F",
+      "step_number": 18,
+      "title": "Espécies de Psorophora — Passo 18",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com escamas laterais claras, esbranquiçadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora albipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com escamas laterais claras, amareladas ou douradas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F19",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F19",
+      "key_id": "F",
+      "step_number": 19,
+      "title": "Espécies de Psorophora — Passo 19",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo com as escamas claras laterais formando faixa bem definida.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora lutzii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com as escamas claras laterais, sem formar faixa definida.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora forceps"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F20",
+      "key_id": "F",
+      "step_number": 20,
+      "title": "Espécies de Psorophora — Passo 20",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo coberto de escamas predominantemente escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora melanota"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo coberto de escamas claras e escuras esparsas e em número equivalente.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora ferox"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F21",
+      "key_id": "F",
+      "step_number": 21,
+      "title": "Espécies de Psorophora — Passo 21",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas totalmente escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora cingulata"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com, pelo menos, algumas escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F22",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F22",
+      "key_id": "F",
+      "step_number": 22,
+      "title": "Espécies de Psorophora — Passo 22",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas claras da asa limitadas à costa (C); abdome com os tergitos dotados de faixa clara apical.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora dimidiata"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas claras da asa em todas as veias; abdome com os tergitos dotados de áreas claras triangulares apicolaterais.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F23",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F23",
+      "key_id": "F",
+      "step_number": 23,
+      "title": "Espécies de Psorophora — Passo 23",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero Ta-1, de todas as pernas, com anel mediano de escamas claras, ou então, apresentando-se salpicado com tais elementos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F24",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero Ta-1, de todas as pernas, escuro, podendo apenas existir marcação clara basal.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F27",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F24",
+      "key_id": "F",
+      "step_number": 24,
+      "title": "Espécies de Psorophora — Passo 24",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero Ta-1, de todas as pernas, com anel claro mediano.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F25",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero Ta-1, de todas as pernas, salpicado de escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F26",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F25",
+      "key_id": "F",
+      "step_number": 25,
+      "title": "Espécies de Psorophora — Passo 25",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com os tergitos predominantemente cobertos de escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora jamaicensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com os tergitos predominantemente cobertos de escamas escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora confinnis"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F26",
+      "key_id": "F",
+      "step_number": 26,
+      "title": "Espécies de Psorophora — Passo 26",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Veia A I com extremidade distal clara.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora signipennis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia A com extremidade distal escura.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora discolor"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F27",
+      "key_id": "F",
+      "step_number": 27,
+      "title": "Espécies de Psorophora — Passo 27",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas alares escuras formando uma ou mais manchas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F28",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas alares, escuras e claras, homogeneamente misturadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "F29",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "F28",
+      "key_id": "F",
+      "step_number": 28,
+      "title": "Espécies de Psorophora — Passo 28",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Veia R4 +5 com uma só mancha escura, nítida e localizada basalmente.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora varinervis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Veia R4+5 com várias manchas escuras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora paulli"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "F29",
+      "key_id": "F",
+      "step_number": 29,
+      "title": "Espécies de Psorophora — Passo 29",
+      "taxon_context": "Culicinae > Aedini > Psorophora",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo uniformemente revestido de escamas claras; probóscide ventralmente clara porém sem demarcação nítida.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora insularis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo com áreas escuras e irregularmente revestido de escamas douradas ou bronzeadas; probóscide com área ventral clara bem demarcada, frequentemente formando anel distinto.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Psorophora pygmaea"
+        },
+        "is_terminal": true
+      }
+    }
+  ]
+}

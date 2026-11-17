@@ -1,0 +1,1886 @@
+{
+  "keys": [
+    "G",
+    "H",
+    "LIM",
+    "TRI",
+    "SHA",
+    "PHO",
+    "WYE",
+    "JOH",
+    "RUN",
+    "ISO"
+  ],
+  "steps": [
+    {
+      "id": "G1",
+      "key_id": "G",
+      "step_number": 1,
+      "title": "Gêneros da Tribo Sabethini — Passo 1",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pré-espiraculares (SPe) presentes.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pré-espiraculares (SPe) ausentes, substituídas por escamas. > Gênero =  limatus | SALVAR",
+        "image": "ArboTeamPng.png",
+        "next_step": "LIM1",
+        "set_taxonomy": {
+          "genero": "Limatus"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G2",
+      "key_id": "G",
+      "step_number": 2,
+      "title": "Gêneros da Tribo Sabethini — Passo 2",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Calíptera superior (Cs) com fileira marginal de cerdas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Calíptera superior (Cs) sem fileira de cerdas ou então com, no máximo, quatro elementos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G3",
+      "key_id": "G",
+      "step_number": 3,
+      "title": "Gêneros da Tribo Sabethini — Passo 3",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia posterior sem faixa clara no meio; área pós-procoxal (Mpx) sem escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "TRI1",
+        "set_taxonomy": {
+          "genero": "Trichoprosopon"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia posterior com ampla faixa clara mediana; área pós-procoxal (Mpx) com escamas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "SHA1",
+        "set_taxonomy": {
+          "genero": "Shannoniana"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G4",
+      "key_id": "G",
+      "step_number": 4,
+      "title": "Gêneros da Tribo Sabethini — Passo 4",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide sensivelmente mais longa do que o fêmur anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide subigual ou sensivelmente mais curta do que o fêmur anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G5",
+      "key_id": "G",
+      "step_number": 5,
+      "title": "Gêneros da Tribo Sabethini — Passo 5",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo (Eto) com escamas de reflexos prateados.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo (Eto) com escamas escuras e sem reflexos prateados.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G6",
+      "key_id": "G",
+      "step_number": 6,
+      "title": "Gêneros da Tribo Sabethini — Passo 6",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide sensivelmente mais longa do que o fêmur anterior e curva na extremidade distal.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO1",
+        "set_taxonomy": {
+          "genero": "Phoniomyia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide pouco mais longa do que o fêmur anterior e dilatada na extremidade distal.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE1",
+        "set_taxonomy": {
+          "genero": "Wyeomyia"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G7",
+      "key_id": "G",
+      "step_number": 7,
+      "title": "Gêneros da Tribo Sabethini — Passo 7",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Escamas do occipício (Occ) com reflexos prateados.",
+        "image": "ArboTeamPng.png",
+        "next_step": "JOH1",
+        "set_taxonomy": {
+          "genero": "Johnbelkinia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escamas do occipício (Occ) sem reflexos prateados.",
+        "image": "ArboTeamPng.png",
+        "next_step": "G8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G8",
+      "key_id": "G",
+      "step_number": 8,
+      "title": "Gêneros da Tribo Sabethini — Passo 8",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Área pós-pronotal (Ppn) com uma ou mais cerdas posteriores.",
+        "image": "ArboTeamPng.png",
+        "next_step": "RUN1",
+        "set_taxonomy": {
+          "genero": "Runchomyia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Área pós-pronotal (Ppn) sem cerdas posteriores.",
+        "image": "ArboTeamPng.png",
+        "next_step": "ISO1",
+        "set_taxonomy": {
+          "genero": "Isostomyia"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "G9",
+      "key_id": "G",
+      "step_number": 9,
+      "title": "Gêneros da Tribo Sabethini — Passo 9",
+      "taxon_context": "Culicinae > Sabethini",
+      "option_a": {
+        "label": "A",
+        "text": "Lobos antepronotais (Ap) bem desenvolvidos; mosquitos de aparência metálica.",
+        "image": "ArboTeamPng.png",
+        "next_step": "H1",
+        "set_taxonomy": {
+          "genero": "Sabethes"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobos antepronotais (Ap) normalmente desenvolvidos; mosquitos escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE1",
+        "set_taxonomy": {
+          "genero": "Wyeomyia"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H1",
+      "key_id": "H",
+      "step_number": 1,
+      "title": "Espécies de Sabethes — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "cerda pré-alar presente (subgênero Davismyia)",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes petrocchiae"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Ccerda pré-alar ausente",
+        "image": "ArboTeamPng.png",
+        "next_step": "H2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H2",
+      "key_id": "H",
+      "step_number": 2,
+      "title": "Espécies de Sabethes — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "cerda proepisternal superior presente",
+        "image": "ArboTeamPng.png",
+        "next_step": "H3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "cerda proepisternal superior ausente (subgênero Sabethes)",
+        "image": "ArboTeamPng.png",
+        "next_step": "H7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H3",
+      "key_id": "H",
+      "step_number": 3,
+      "title": "Espécies de Sabethes — Passo 3",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarso médio com escamas brancas (subgênero Sabethoides)",
+        "image": "ArboTeamPng.png",
+        "next_step": "H4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarso médio totalmente escuro",
+        "image": "ArboTeamPng.png",
+        "next_step": "H21",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H4",
+      "key_id": "H",
+      "step_number": 4,
+      "title": "Espécies de Sabethes — Passo 4",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "cerda mesepímera superior curta, não alcançando a área média do mesopostnótero, alcançando apenas a área lateral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "cerda mesepímera superior longa, alcançando a área média do Mesoposnoto",
+        "image": "ArboTeamPng.png",
+        "next_step": "H6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H5",
+      "key_id": "H",
+      "step_number": 5,
+      "title": "Espécies de Sabethes — Passo 5",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarso médio com escamas brancas desde a base do tarsômero 2 até a extremidade do tarsômero 4; tergos abdominais V e VI com mancha lateral de escamas prateadas expandida em direção à extremidade como uma incisão angular",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes chloropterus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarso médio com escamas brancas desde a base do tarsômero 3 até a extremidade ou quase até a extremidade do tarsômero 4; tergos abdominais V e VI com mancha lateral de escamas prateadas limitada à base",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes conditus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H6",
+      "key_id": "H",
+      "step_number": 6,
+      "title": "Espécies de Sabethes — Passo 6",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Antepronoto com escamas azuis dorsalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes tridentatus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Antepronoto com escamas esverdeadas dorsalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes glaucodaemon"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H7",
+      "key_id": "H",
+      "step_number": 7,
+      "title": "Espécies de Sabethes — Passo 7",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarso médio totalmente escuro",
+        "image": "ArboTeamPng.png",
+        "next_step": "H8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarso médio com escamas brancas",
+        "image": "ArboTeamPng.png",
+        "next_step": "H15",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H8",
+      "key_id": "H",
+      "step_number": 8,
+      "title": "Espécies de Sabethes — Passo 8",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Pernas médias sem remos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes purpureus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pernas médias com remos",
+        "image": "ArboTeamPng.png",
+        "next_step": "H9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H9",
+      "key_id": "H",
+      "step_number": 9,
+      "title": "Espécies de Sabethes — Passo 9",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "cerda mesepímera superior preta; uma única cerda amarelada pode estar presente entre as cerdas pretas",
+        "image": "ArboTeamPng.png",
+        "next_step": "H10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "cerda mesepímera superior amarelada",
+        "image": "ArboTeamPng.png",
+        "next_step": "H13",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H10",
+      "key_id": "H",
+      "step_number": 10,
+      "title": "Espécies de Sabethes — Passo 10",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Pospronoto totalmente com escamas azuis",
+        "image": "ArboTeamPng.png",
+        "next_step": "H11",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pospronoto coberto com escamas azuis dorsalmente e escamas douradas pálidas ventralmente",
+        "image": "ArboTeamPng.png",
+        "next_step": "H12",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H11",
+      "key_id": "H",
+      "step_number": 11,
+      "title": "Espécies de Sabethes — Passo 11",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Segmentos abdominais VI e VII com cores separadas lateralmente em uma linha reta",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes batesi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Segmentos abdominais VI e VII com cores separadas lateralmente por incisões arredondadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes cyaneus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H12",
+      "key_id": "H",
+      "step_number": 12,
+      "title": "Espécies de Sabethes — Passo 12",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo totalmente coberto com escamas azuis; superfície ventral da midfêmur com uma linha de escamas com reflexo dourado pálido",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes lanei"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo coberto com escamas esverdeadas, escamas das áreas antealares e supralares com reflexos dourados; superfície ventral da midfêmur escura",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes spixi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H13",
+      "key_id": "H",
+      "step_number": 13,
+      "title": "Espécies de Sabethes — Passo 13",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Antepronoto com escamas violáceas dorsalmente, contrastando com a coloração azul do escutelo",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes albiprivus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Antepronoto com escamas azuis dorsalmente, semelhante à coloração do escutelo",
+        "image": "ArboTeamPng.png",
+        "next_step": "H14",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H14",
+      "key_id": "H",
+      "step_number": 14,
+      "title": "Espécies de Sabethes — Passo 14",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Pospronoto totalmente com escamas azuis",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes quasicyaneus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pospronoto com área dorsal coberta com escamas azuis e área ventral com escamas ligeiramente douradas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes albiprivus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H15",
+      "key_id": "H",
+      "step_number": 15,
+      "title": "Espécies de Sabethes — Passo 15",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo com faixa escura mediana distinta das áreas laterais azuis e douradas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes bipartipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo sem faixa escura mediana, totalmente coberto com escamas da mesma cor",
+        "image": "ArboTeamPng.png",
+        "next_step": "H16",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H16",
+      "key_id": "H",
+      "step_number": 16,
+      "title": "Espécies de Sabethes — Passo 16",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "cerda mesepímera superior longa, alcançando a área média do Mesoposnoto",
+        "image": "ArboTeamPng.png",
+        "next_step": "H17",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "cerda mesepímera superior curta, não alcançando a área média do mesopostnótero, alcançando apenas a área lateral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H19",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H17",
+      "key_id": "H",
+      "step_number": 17,
+      "title": "Espécies de Sabethes — Passo 17",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Mesoposnoto com mancha de escamas brancas prateadas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes gymnothorax"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesoposnoto sem mancha de escamas brancas prateadas",
+        "image": "ArboTeamPng.png",
+        "next_step": "H18",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H18",
+      "key_id": "H",
+      "step_number": 18,
+      "title": "Espécies de Sabethes — Passo 18",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia anterior com escamas brancas do tarsômero 3 até a metade basal do tarsômero 5",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes amazonicus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia anterior com escamas brancas da metade apical do tarsômero 2 até o tarsômero 4",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes forattinii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H19",
+      "key_id": "H",
+      "step_number": 19,
+      "title": "Espécies de Sabethes — Passo 19",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia anterior totalmente escurecida no tarsômero 3",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes tarsopus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia anterior com escamas brancas no lado ventral do tarsômero 3",
+        "image": "ArboTeamPng.png",
+        "next_step": "H20",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H20",
+      "key_id": "H",
+      "step_number": 20,
+      "title": "Espécies de Sabethes — Passo 20",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia anterior com escamas brancas nos tarsômeros 2 e 3 no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes belisarioi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia anterior com escamas brancas do meio apical do tarsômero 2 até a metade basal do tarsômero 4",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes cerqueirai"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H21",
+      "key_id": "H",
+      "step_number": 21,
+      "title": "Espécies de Sabethes — Passo 21",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "cerda mesocatepisternal inferior presente (subgênero Peytonulus)",
+        "image": "ArboTeamPng.png",
+        "next_step": "H22",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "cerda mesocatepisternal inferior ausente (subgênero Sabethinus)",
+        "image": "ArboTeamPng.png",
+        "next_step": "H30",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H22",
+      "key_id": "H",
+      "step_number": 22,
+      "title": "Espécies de Sabethes — Passo 22",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo coberto com escamas opacas, sem brilho metálico",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes shannoni"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo coberto com escamas brilhantes de coloração metálica",
+        "image": "ArboTeamPng.png",
+        "next_step": "H23",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H23",
+      "key_id": "H",
+      "step_number": 23,
+      "title": "Espécies de Sabethes — Passo 23",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide totalmente escurecida no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H24",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide com escamas claras no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H26",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H24",
+      "key_id": "H",
+      "step_number": 24,
+      "title": "Espécies de Sabethes — Passo 24",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero 5 da tíbia posterior com escamas brancas no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H25",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero 5 da tíbia posterior totalmente escurecido",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes ignotus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H25",
+      "key_id": "H",
+      "step_number": 25,
+      "title": "Espécies de Sabethes — Passo 25",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Antepronoto com escamas violáceas dorsalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes undosus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Antepronoto com escamas violáceas e azuis dorsalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes hadrognathus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H26",
+      "key_id": "H",
+      "step_number": 26,
+      "title": "Espécies de Sabethes — Passo 26",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide com mancha de escamas claras no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H27",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide com linha de escamas claras no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H29",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H27",
+      "key_id": "H",
+      "step_number": 27,
+      "title": "Espécies de Sabethes — Passo 27",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero 5 da tíbia posterior com escamas brancas no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": "H28",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero 5 da tíbia posterior escurecido no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes whitmani"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H28",
+      "key_id": "H",
+      "step_number": 28,
+      "title": "Espécies de Sabethes — Passo 28",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Antepronoto com escamas violáceas dorsalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes soperi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Antepronoto com escamas azuis dorsalmente",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes fabricii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H29",
+      "key_id": "H",
+      "step_number": 29,
+      "title": "Espécies de Sabethes — Passo 29",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero 5 da tíbia posterior com escamas brancas no lado ventral",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes aurescens"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero 5 da tíbia posterior totalmente escurecido",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes identicus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H30",
+      "key_id": "H",
+      "step_number": 30,
+      "title": "Espécies de Sabethes — Passo 30",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértebra e área dorsal do antepronoto com a mesma coloração metálica",
+        "image": "ArboTeamPng.png",
+        "next_step": "H31",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértebra e área dorsal do antepronoto com coloração metálica distinta",
+        "image": "ArboTeamPng.png",
+        "next_step": "H32",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "H31",
+      "key_id": "H",
+      "step_number": 31,
+      "title": "Espécies de Sabethes — Passo 31",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértebra e área dorsal do antepronoto com reflexos violáceos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes intermedius"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértebra e área dorsal do antepronoto com reflexos azulados",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes melanonymphe"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "H32",
+      "key_id": "H",
+      "step_number": 32,
+      "title": "Espécies de Sabethes — Passo 32",
+      "taxon_context": "Culicinae > Sabethini > Sabethes",
+      "option_a": {
+        "label": "A",
+        "text": "Vértebra predominantemente com reflexos violáceos e área dorsal do antepronoto com reflexos azul-claro",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes xhyphydes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Vértebra predominantemente com reflexos violáceos e antepronoto com alguns reflexos violáceos",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Sabethes idiogenes"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "LIM1",
+      "key_id": "LIM",
+      "step_number": 1,
+      "title": "Espécies de Limatus — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Limatus",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) com o desenho de escamas douradas e violáceas dividido anteriormente por uma faixa mediana longitudinal violácea/escura que alcança a margem anterior.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Limatus durhamii"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) sem faixa mediana violácea dividindo a mancha dourada anterior, ou com padrão metálico uniforme.",
+        "image": "ArboTeamPng.png",
+        "next_step": "LIM2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "LIM2",
+      "key_id": "LIM",
+      "step_number": 2,
+      "title": "Espécies de Limatus — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Limatus",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pós-pronotais e pré-alares de coloração amarelada-clara brilhante; tarsos posteriores inteiramente escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Limatus flavisetosus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pleurais escuras ou castanhas; tarsos médios ou posteriores frequentemente com escamas brancas ou reflexos claros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "LIM3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "LIM3",
+      "key_id": "LIM",
+      "step_number": 3,
+      "title": "Espécies de Limatus — Passo 3",
+      "taxon_context": "Culicinae > Sabethini > Limatus",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros médios com marcação de escamas brancas em um dos lados; probóscide curta e espessa.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Limatus paraensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros médios sem escamas brancas nítidas, apenas com reflexos metálicos azulados ou acobreados.",
+        "image": "ArboTeamPng.png",
+        "next_step": "LIM4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "LIM4",
+      "key_id": "LIM",
+      "step_number": 4,
+      "title": "Espécies de Limatus — Passo 4",
+      "taxon_context": "Culicinae > Sabethini > Limatus",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais com as cores dorsal (escura) e lateral (prateada) separadas em linha quase reta.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Limatus pseudomethysticus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais com incisões laterais profundas de escamas prateadas/amareladas em cada segmento.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Limatus asulleptus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "TRI1",
+      "key_id": "TRI",
+      "step_number": 1,
+      "title": "Espécies de Trichoprosopon — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Trichoprosopon",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros posteriores Ta-2 a Ta-5 inteiramente brancos ou predominantemente brancos; mosquitos de grande porte.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Trichoprosopon digitatum"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros posteriores não inteiramente brancos de Ta-2 a Ta-5 (alguns segmentos escuros ou apenas parcialmente marcados).",
+        "image": "ArboTeamPng.png",
+        "next_step": "TRI2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TRI2",
+      "key_id": "TRI",
+      "step_number": 2,
+      "title": "Espécies de Trichoprosopon — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Trichoprosopon",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios com os tarsômeros Ta-2 a Ta-4 revestidos de escamas brancas; tarso posterior escuro com anel branco apenas em Ta-4.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Trichoprosopon compressum"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos médios e posteriores com todos os tarsômeros escuros ou apenas com discretos reflexos claros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "TRI3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TRI3",
+      "key_id": "TRI",
+      "step_number": 3,
+      "title": "Espécies de Trichoprosopon — Passo 3",
+      "taxon_context": "Culicinae > Sabethini > Trichoprosopon",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com os esternitos inteiramente revestidos de escamas amarelo-pálidas; linha lateral do abdome em incisões arredondadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Trichoprosopon pallidiventer"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Esternitos abdominais com faixas apicais de escamas escuras ou reflexos metálicos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "TRI4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TRI4",
+      "key_id": "TRI",
+      "step_number": 4,
+      "title": "Espécies de Trichoprosopon — Passo 4",
+      "taxon_context": "Culicinae > Sabethini > Trichoprosopon",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide mais curta que o fêmur anterior; escudo revestido de escamas castanho-escuras opacas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Trichoprosopon obscurum"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide subigual ao fêmur anterior; pleuras com escamas prateadas densas no mesocatepisterno.",
+        "image": "ArboTeamPng.png",
+        "next_step": "TRI5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "TRI5",
+      "key_id": "TRI",
+      "step_number": 5,
+      "title": "Espécies de Trichoprosopon — Passo 5",
+      "taxon_context": "Culicinae > Sabethini > Trichoprosopon",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia média com mancha clara subapical; escutelo com reflexos azulados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Trichoprosopon simile"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia média inteiramente escura; escutelo com escamas escuras acobreadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Trichoprosopon castroi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "SHA1",
+      "key_id": "SHA",
+      "step_number": 1,
+      "title": "Espécies de Shannoniana — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Shannoniana",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-5 inteiramente branco; tíbia posterior com largo anel claro mediano.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Shannoniana fluviatilis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-5 escuro; marcação clara restrita a Ta-3 e Ta-4.",
+        "image": "ArboTeamPng.png",
+        "next_step": "SHA2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "SHA2",
+      "key_id": "SHA",
+      "step_number": 2,
+      "title": "Espécies de Shannoniana — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Shannoniana",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas largas na base das veias R e M; probóscide longa e fina.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Shannoniana schedocyclia"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas estreitas na base da veia R; pleuras com reflexos prateados intensos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Shannoniana moralesi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "PHO1",
+      "key_id": "PHO",
+      "step_number": 1,
+      "title": "Espécies de Phoniomyia — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos posteriores com marcação branca contínua nos tarsômeros distais (Ta-3 a Ta-5).",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos posteriores escuros ou com marcação clara descontínua / restrita a um lado dos segmentos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "PHO2",
+      "key_id": "PHO",
+      "step_number": 2,
+      "title": "Espécies de Phoniomyia — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Escudo (Esc) revestido dorsalmente por escamas de brilho metálico verde-dourado intenso.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia splendida"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) revestido por escamas bronzeadas ou escuras com leve reflexo metálico.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "PHO3",
+      "key_id": "PHO",
+      "step_number": 3,
+      "title": "Espécies de Phoniomyia — Passo 3",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros médios Ta-2 a Ta-4 com linha branca contínua; tergitos abdominais com incisões laterais triangulares.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia longirostris"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros médios com branco restrito a Ta-3 e Ta-4; tergitos abdominais com cores separadas em linha reta.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia theobaldi"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "PHO4",
+      "key_id": "PHO",
+      "step_number": 4,
+      "title": "Espécies de Phoniomyia — Passo 4",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios apresentando nítida marcação de escamas brancas em Ta-2 a Ta-4; tarso posterior escuro ou apenas com linha clara ventral.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Todos os tarsos (anteriores, médios e posteriores) inteiramente escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "PHO5",
+      "key_id": "PHO",
+      "step_number": 5,
+      "title": "Espécies de Phoniomyia — Passo 5",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Lobos antepronotais (Ap) revestidos dorsalmente por escamas violáceas ou azuladas metálicas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia davisi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobos antepronotais (Ap) revestidos inteiramente por escamas prateadas ou esbranquiçadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "PHO6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "PHO6",
+      "key_id": "PHO",
+      "step_number": 6,
+      "title": "Espécies de Phoniomyia — Passo 6",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômero posterior Ta-4 e Ta-5 com escamas brancas na face ventral; abdome com incisões basolaterais claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia pilicauda"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômero posterior Ta-4 escuro, com escamas claras apenas na base de Ta-5.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia incaudata"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "PHO7",
+      "key_id": "PHO",
+      "step_number": 7,
+      "title": "Espécies de Phoniomyia — Passo 7",
+      "taxon_context": "Culicinae > Sabethini > Phoniomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Abdome com as cores escura dorsal e clara ventral separadas lateralmente em linha reta.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia quasilongirostris"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Abdome com as cores separadas lateralmente por incisões arredondadas ou triangulares.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Phoniomyia bonnei"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "WYE1",
+      "key_id": "WYE",
+      "step_number": 1,
+      "title": "Espécies de Wyeomyia — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Clípeo (Clp) revestido por escamas ovais brancas ou prateadas (Subgênero Cruzmyia / Prosopolepis).",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Clípeo (Clp) glabro (desprovido de escamas, apresentando no máximo pruinosidade).",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "WYE2",
+      "key_id": "WYE",
+      "step_number": 2,
+      "title": "Espécies de Wyeomyia — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios e posteriores com marcação de escamas brancas nos tarsômeros distais.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia confusa"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos posteriores inteiramente escuros; probóscide curta e dilatada no ápice.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia kummii"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "WYE3",
+      "key_id": "WYE",
+      "step_number": 3,
+      "title": "Espécies de Wyeomyia — Passo 3",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Sutura pós-pronotal ou área protorácica com mancha de escamas brancas no topo dos lobos antepronotais (Ap); olhos separados por faixa de escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobos antepronotais (Ap) totalmente escuros ou violáceos dorsalmente, sem mancha apical branca.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "WYE4",
+      "key_id": "WYE",
+      "step_number": 4,
+      "title": "Espécies de Wyeomyia — Passo 4",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios e posteriores totalmente escuros, sem marcação de escamas brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia aporonoma"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pelo menos os tarsos médios ou posteriores com marcação clara em alguns tarsômeros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "WYE5",
+      "key_id": "WYE",
+      "step_number": 5,
+      "title": "Espécies de Wyeomyia — Passo 5",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos posteriores com manchas brancas basais nos tarsômeros Ta-2 a Ta-5; tarsos médios escuros ou pouco marcados.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia arthrostigma"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos médios com linha contínua branca de Ta-2 a Ta-4; tarsos posteriores com Ta-4 e Ta-5 brancos ventralmente.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia oblita"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "WYE6",
+      "key_id": "WYE",
+      "step_number": 6,
+      "title": "Espécies de Wyeomyia — Passo 6",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios e posteriores inteiramente escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia luteoventralis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos médios e/ou posteriores com escamas brancas.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "WYE7",
+      "key_id": "WYE",
+      "step_number": 7,
+      "title": "Espécies de Wyeomyia — Passo 7",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia média e tarsômeros médios com exuberante revestimento de escamas longas em forma de remo escuro e branco.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia melanocephala"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Pernas médias sem remos de escamas longas; tarsômeros normalmente revestidos.",
+        "image": "ArboTeamPng.png",
+        "next_step": "WYE8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "WYE8",
+      "key_id": "WYE",
+      "step_number": 8,
+      "title": "Espécies de Wyeomyia — Passo 8",
+      "taxon_context": "Culicinae > Sabethini > Wyeomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo (Eto) com mancha de escamas prateadas no lobo mediano; tarsômeros posteriores marcados de branco.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia mystes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo (Eto) inteiramente revestido de escamas escuras da mesma cor do escudo.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Wyeomyia bourrouli"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "JOH1",
+      "key_id": "JOH",
+      "step_number": 1,
+      "title": "Espécies de Johnbelkinia — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Johnbelkinia",
+      "option_a": {
+        "label": "A",
+        "text": "Tíbia posterior e base do tarsômero Ta-1 com tufo de escamas longas suberectas formando remo; tarsômeros posteriores Ta-4 e Ta-5 brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Johnbelkinia longipes"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tíbia posterior sem tufo de escamas em remo.",
+        "image": "ArboTeamPng.png",
+        "next_step": "JOH2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "JOH2",
+      "key_id": "JOH",
+      "step_number": 2,
+      "title": "Espécies de Johnbelkinia — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Johnbelkinia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios com escamas brancas nos tarsômeros Ta-2 a Ta-5; tarsômero posterior Ta-5 inteiramente branco.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Johnbelkinia ulopus"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos médios inteiramente escuros; apenas os tarsômeros posteriores Ta-4 e Ta-5 brancos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Johnbelkinia leucopus"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "RUN1",
+      "key_id": "RUN",
+      "step_number": 1,
+      "title": "Espécies de Runchomyia — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Runchomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios com escamas brancas nos tarsômeros distais; occipício com reflexos violáceos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Runchomyia reversa"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsos médios e posteriores inteiramente escuros.",
+        "image": "ArboTeamPng.png",
+        "next_step": "RUN2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "RUN2",
+      "key_id": "RUN",
+      "step_number": 2,
+      "title": "Espécies de Runchomyia — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Runchomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Lobos antepronotais (Ap) com escamas de reflexo azul-violáceo metálico intenso.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Runchomyia frontosa"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Lobos antepronotais (Ap) revestidos de escamas acobreadas ou prateadas sem brilho azul intenso.",
+        "image": "ArboTeamPng.png",
+        "next_step": "RUN3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "RUN3",
+      "key_id": "RUN",
+      "step_number": 3,
+      "title": "Espécies de Runchomyia — Passo 3",
+      "taxon_context": "Culicinae > Sabethini > Runchomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide mais longa que o fêmur anterior; pleuras com escamas prateadas uniformes.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Runchomyia theobaldi"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide de comprimento subigual ao fêmur anterior; tergitos com incisões laterais arredondadas.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Runchomyia cerqueirai"
+        },
+        "is_terminal": true
+      }
+    },
+    {
+      "id": "ISO1",
+      "key_id": "ISO",
+      "step_number": 1,
+      "title": "Espécies de Isostomyia — Passo 1",
+      "taxon_context": "Culicinae > Sabethini > Isostomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais com as cores dorsal e ventral separadas lateralmente por incisões profundas de escamas claras.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Isostomyia espini"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais com as cores dorsal e ventral separadas em linha reta ou levemente ondulada.",
+        "image": "ArboTeamPng.png",
+        "next_step": "ISO2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "ISO2",
+      "key_id": "ISO",
+      "step_number": 2,
+      "title": "Espécies de Isostomyia — Passo 2",
+      "taxon_context": "Culicinae > Sabethini > Isostomyia",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsos médios com reflexo esbranquiçado nos segmentos distais; espécie do Sul/Sudeste.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Isostomyia paranensis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Todos os tarsos inteiramente escuros; palpos maxilares muito curtos.",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "especie": "Isostomyia perturbans"
+        },
+        "is_terminal": true
+      }
+    }
+  ]
+}

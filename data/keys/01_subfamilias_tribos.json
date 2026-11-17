@@ -1,0 +1,320 @@
+{
+  "keys": [
+    "A",
+    "B"
+  ],
+  "steps": [
+    {
+      "id": "A1",
+      "key_id": "A",
+      "step_number": 1,
+      "title": "Subfamílias de Culicidae — Passo 1",
+      "taxon_context": "Família Culicidae",
+      "option_a": {
+        "label": "A",
+        "text": "Tergitos abdominais II-VI desprovidos de escamas na maior parte de sua superfície; palpos geralmente tão longos como a probóscide",
+        "image": "ArboTeamPng.png",
+        "next_step": "AN_GEN1",
+        "set_taxonomy": {
+          "subfamilia": "Anophelinae"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tergitos abdominais II-VI sempre dotados de numerosas escamas cobrindo a sua superfície; palpos de comprimento equivalente a não mais do que três quartos da probóscide, mas geralmente mais curtos do que este apêndice",
+        "image": "ArboTeamPng.png",
+        "next_step": "A2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "A2",
+      "key_id": "A",
+      "step_number": 2,
+      "title": "Subfamílias de Culicidae — Passo 2",
+      "taxon_context": "Família Culicidae",
+      "option_a": {
+        "label": "A",
+        "text": "Escutelo arredondado",
+        "image": "ArboTeamPng.png",
+        "next_step": "TOX1",
+        "set_taxonomy": {
+          "subfamilia": "Toxorhynchitinae",
+          "tribo": "Toxorhynchitini",
+          "genero": "Toxorhynchites"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escutelo trilobado",
+        "image": "ArboTeamPng.png",
+        "next_step": "B1",
+        "set_taxonomy": {
+          "subfamilia": "Culicinae"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B1",
+      "key_id": "B",
+      "step_number": 1,
+      "title": "Tribos de Culicinae — Passo 1",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Probóscide longa e acentuadamente curva, inferiormente recurva em direção posterior",
+        "image": "ArboTeamPng.png",
+        "next_step": "TOX1",
+        "set_taxonomy": {
+          "tribo": "Toxorhynchitini",
+          "genero": "Toxorhynchites"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Probóscide longa ou curta, mas sempre reta e quando curva somente o é na extremidade distal, mesmo assim de maneira moderada",
+        "image": "ArboTeamPng.png",
+        "next_step": "B2",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B2",
+      "key_id": "B",
+      "step_number": 2,
+      "title": "Tribos de Culicinae — Passo 2",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com A1 terminando medialmente em relação à bifurcação de CuA",
+        "image": "ArboTeamPng.png",
+        "next_step": "URA1",
+        "set_taxonomy": {
+          "tribo": "Uranotaeniini",
+          "genero": "Uranotaenia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com A1 terminando lateralmente em relação à bifurcação de CuA",
+        "image": "ArboTeamPng.png",
+        "next_step": "B3",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B3",
+      "key_id": "B",
+      "step_number": 3,
+      "title": "Tribos de Culicinae — Passo 3",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Mesoposnoto (Mpn) dotado de cerdas, podendo apresentar escamas; base da coxa posterior (Cx-III) situada ao mesmo nível ou mesmo superiormente à margem dorsal do mesomeron (Msm)",
+        "image": "ArboTeamPng.png",
+        "next_step": "G1",
+        "set_taxonomy": {
+          "tribo": "Sabethini"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Mesoposnoto (Mpn) glabro; base da coxa posterior (Cx-III) nitidamente situada em nível inferior à margem dorsal do mesomeron (Msm)",
+        "image": "ArboTeamPng.png",
+        "next_step": "B4",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B4",
+      "key_id": "B",
+      "step_number": 4,
+      "title": "Tribos de Culicinae — Passo 4",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Bicudo (Esc) revestido de escamas metálicas e sem cerdas pré-escutelares (SPr)",
+        "image": "ArboTeamPng.png",
+        "next_step": "C1",
+        "set_taxonomy": {
+          "tribo": "Aedini"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Escudo (Esc) com revestimento diferente e presença de cerdas pré-escutelares (SPr)",
+        "image": "ArboTeamPng.png",
+        "next_step": "B5",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B5",
+      "key_id": "B",
+      "step_number": 5,
+      "title": "Tribos de Culicinae — Passo 5",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Cerdas pós-espiraculares (SAP) presentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "B6",
+        "set_taxonomy": {},
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Cerdas pós-espiraculares (SAP) ausentes",
+        "image": "ArboTeamPng.png",
+        "next_step": "B7",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B6",
+      "key_id": "B",
+      "step_number": 6,
+      "title": "Tribos de Culicinae — Passo 6",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Asa com escamas largas; abdomen da fêmea com extremidade distal truncada",
+        "image": "ArboTeamPng.png",
+        "next_step": "MAN_GEN1",
+        "set_taxonomy": {
+          "tribo": "Mansoniini"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa com escamas estreitas; abdome da fêmea com a extremidade distal afilada e geralmente telescopada",
+        "image": "ArboTeamPng.png",
+        "next_step": "C1",
+        "set_taxonomy": {
+          "tribo": "Aedini"
+        },
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B7",
+      "key_id": "B",
+      "step_number": 7,
+      "title": "Tribos de Culicinae — Passo 7",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Asa apresentando, na fase inferior, cerdas implantadas na base da veia subcosta (Se)",
+        "image": "ArboTeamPng.png",
+        "next_step": "CULIS1",
+        "set_taxonomy": {
+          "tribo": "Culisetini",
+          "genero": "Culiseta"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Asa desprovida, na face inferior, de cerdas implantadas na base da veia subcosta (Se)",
+        "image": "ArboTeamPng.png",
+        "next_step": "B8",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B8",
+      "key_id": "B",
+      "step_number": 8,
+      "title": "Tribos de Culicinae — Passo 8",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Antena com flagelômeros (Flm) curtos e grossos; fêmures, médio e posterior, com tufo apical de escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": null,
+        "set_taxonomy": {
+          "tribo": "Aedeomyiini",
+          "genero": "Aedeomyia",
+          "especie": "Aedeomyia squamipennis"
+        },
+        "is_terminal": true
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Antena com flagelômeros (Fim) alongados e estreitos; fêmures, médio e posterior, sem tufo apical de escamas",
+        "image": "ArboTeamPng.png",
+        "next_step": "B9",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B9",
+      "key_id": "B",
+      "step_number": 9,
+      "title": "Tribos de Culicinae — Passo 9",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Tarsômeros Ta-4, anterior e médio, curtos e tão longos quanto largos",
+        "image": "ArboTeamPng.png",
+        "next_step": "ORT1",
+        "set_taxonomy": {
+          "tribo": "Orthopodomyiini",
+          "genero": "Orthopodomyia"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Tarsômeros Ta-4, anterior e médio, alongados e mais longos do que largos",
+        "image": "ArboTeamPng.png",
+        "next_step": "B10",
+        "set_taxonomy": {},
+        "is_terminal": false
+      }
+    },
+    {
+      "id": "B10",
+      "key_id": "B",
+      "step_number": 10,
+      "title": "Tribos de Culicinae — Passo 10",
+      "taxon_context": "Culicinae",
+      "option_a": {
+        "label": "A",
+        "text": "Ápice do abdome feminino com aspecto afilado ou telescopado; escudo com desenho de escamas douradas",
+        "image": "ArboTeamPng.png",
+        "next_step": "C1",
+        "set_taxonomy": {
+          "tribo": "Aedini"
+        },
+        "is_terminal": false
+      },
+      "option_b": {
+        "label": "B",
+        "text": "Ápice do abdome feminino com aspecto truncado ou rombo; escudo com outro tipo de desenho ou mesmo sem nenhum",
+        "image": "ArboTeamPng.png",
+        "next_step": "I1",
+        "set_taxonomy": {
+          "tribo": "Culicini"
+        },
+        "is_terminal": false
+      }
+    }
+  ]
+}
